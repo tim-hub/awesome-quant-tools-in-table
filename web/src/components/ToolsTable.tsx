@@ -7,7 +7,6 @@ import {
   createColumnHelper,
   type SortingState,
   type FilterFn,
-  type SortingFn,
 } from '@tanstack/react-table'
 import { useState, useMemo } from 'react'
 import {
@@ -38,15 +37,6 @@ const globalFilterFn: FilterFn<Project> = (row, _columnId, filterValue: string) 
   )
 }
 
-// null values always sort last, regardless of direction
-const lastCommitSort: SortingFn<Project> = (rowA, rowB, columnId) => {
-  const a = rowA.getValue<string | null>(columnId)
-  const b = rowB.getValue<string | null>(columnId)
-  if (a === null && b === null) return 0
-  if (a === null) return 1
-  if (b === null) return -1
-  return a < b ? -1 : a > b ? 1 : 0
-}
 
 export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
@@ -97,7 +87,8 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
           </a>
         ) : null,
     }),
-    columnHelper.accessor('last_commit', {
+    columnHelper.accessor(row => row.last_commit ?? undefined, {
+      id: 'last_commit',
       header: ({ column }) => (
         <Button
           variant="ghost"
@@ -115,7 +106,7 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
           )}
         </Button>
       ),
-      sortingFn: lastCommitSort,
+      sortUndefined: 'last',
       cell: info => info.getValue() ?? '',
     }),
   ], [])
