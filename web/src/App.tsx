@@ -37,7 +37,7 @@ export default function App() {
       <p className="text-muted-foreground mb-6">
         A curated list of quantitative finance tools. Source:{' '}
         <a
-          href="https://github.com/hbai/awesome-quant-tools-in-table"
+          href="https://github.com/TradeInsight-Info/awesome-quant-tools-in-table"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
