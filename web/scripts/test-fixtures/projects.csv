@@ -1,0 +1,3 @@
+project,section,url,description,github,cran
+ArcticDB,Python > Data,https://github.com/man-group/ArcticDB,High perf datastore,True,False
+numpy,Python > Numerical,https://numpy.org,Numeric computing,False,False
