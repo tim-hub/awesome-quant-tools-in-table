@@ -1,6 +1,6 @@
 ## Adding a New Tool
 
-Please fill in all fields below when adding a new row to `site/projects.csv`.
+Please fill in all fields below when adding a new row to `projects.csv`.
 
 - **Name:**
 - **Description:**

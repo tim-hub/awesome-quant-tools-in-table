@@ -13,7 +13,7 @@ function rel(...parts) {
   return resolve(__dirname, ...parts)
 }
 
-const PROJECTS_CSV  = rel('../../site/projects.csv')
+const PROJECTS_CSV  = rel('../../projects.csv')
 const COMMITS_CSV   = rel('../../last_commit_times.csv')
 const OUTPUT_JSON   = rel('../public/projects.json')
 

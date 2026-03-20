@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CSV="site/projects.csv"
+CSV="projects.csv"
 OUTPUT="last_commit_times.csv"
 BATCH_SIZE=10
 DELAY=2
@@ -14,7 +14,7 @@ fi
 # Extract GitHub URLs from projects.csv using python3 (handles quoted CSV correctly)
 github_urls=$(python3 - <<'PYEOF'
 import csv, sys
-with open('site/projects.csv', newline='', encoding='utf-8') as f:
+with open('projects.csv', newline='', encoding='utf-8') as f:
     for row in csv.DictReader(f):
         url = row['url'].strip()
         if url.startswith('https://github.com/'):
@@ -80,7 +80,7 @@ echo "Done. Written to $OUTPUT" >&2
 python3 - <<'PYEOF'
 import csv, re
 
-with open('site/projects.csv', newline='', encoding='utf-8') as f:
+with open('projects.csv', newline='', encoding='utf-8') as f:
     rows = list(csv.DictReader(f))
 
 # Group by section, sort sections and entries alphabetically
