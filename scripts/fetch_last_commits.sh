@@ -35,7 +35,7 @@ fetch_batch() {
 
     if [ -z "$owner_repo" ] || [ "$(echo "$owner_repo" | tr -cd '/' | wc -c)" -lt 1 ]; then
       echo "WARN: could not extract owner/repo from $url" >&2
-      echo "\"$url\"," >> "$OUTPUT"
+      echo "\"$url\",\"\"" >> "$OUTPUT"
       continue
     fi
 
@@ -49,7 +49,7 @@ fetch_batch() {
 
     if [ "$http_code" != "200" ]; then
       echo "WARN: $url → HTTP $http_code" >&2
-      echo "\"$url\"," >> "$OUTPUT"
+      echo "\"$url\",\"\"" >> "$OUTPUT"
     else
       last_commit=$(echo "$body" | jq -r '.[0].commit.author.date // empty' | cut -c1-10)
       echo "\"$url\",\"$last_commit\"" >> "$OUTPUT"
