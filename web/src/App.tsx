@@ -57,7 +57,7 @@ export default function App() {
         </div>
         <div className="header-right">
           <a
-            href="https://github.com/TradeInsight-Info/awesome-quant-tools-in-table/blob/master/.github/PULL_REQUEST_TEMPLATE.md"
+            href="https://github.com/tim-hub/awesome-quant-tools-in-table/blob/master/.github/PULL_REQUEST_TEMPLATE.md"
             className="meta-link suggest-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function App() {
             + Suggest a tool
           </a>
           <a
-            href="https://github.com/TradeInsight-Info/awesome-quant-tools-in-table"
+            href="https://github.com/tim-hub/awesome-quant-tools-in-table"
             className="meta-link"
             target="_blank"
             rel="noopener noreferrer"
