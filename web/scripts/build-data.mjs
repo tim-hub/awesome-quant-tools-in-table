@@ -41,15 +41,24 @@ if (existsSync(COMMITS_CSV)) {
 }
 
 // --- Merge ---
-const merged = projects.map(row => ({
-  project:     row.project?.trim() ?? '',
-  section:     row.section?.trim() ?? '',
-  url:         row.url?.trim() ?? '',
-  description: row.description?.trim() ?? '',
-  github:      row.github?.trim() === 'True',
-  cran:        row.cran?.trim() === 'True',
-  last_commit: commitMap.get(row.url?.trim()) ?? null,
-}))
+const merged = projects.map(row => {
+  // Split section "Python > Numerical Libraries" into language + section
+  const rawSection = row.section?.trim() ?? ''
+  const gtIdx = rawSection.indexOf(' > ')
+  const language = gtIdx !== -1 ? rawSection.slice(0, gtIdx).trim() : ''
+  const section  = gtIdx !== -1 ? rawSection.slice(gtIdx + 3).trim() : rawSection
+
+  return {
+    project:     row.project?.trim() ?? '',
+    language:    language,
+    section:     section,
+    url:         row.url?.trim() ?? '',
+    description: row.description?.trim() ?? '',
+    github:      row.github?.trim() === 'True',
+    cran:        row.cran?.trim() === 'True',
+    last_commit: commitMap.get(row.url?.trim()) ?? null,
+  }
+})
 
 // --- Write output ---
 writeFileSync(OUTPUT_JSON, JSON.stringify(merged, null, 2))

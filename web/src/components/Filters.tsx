@@ -42,7 +42,7 @@ export function Filters({
   }
 
   const label = selectedSections.length === 0
-    ? 'Section'
+    ? 'Language'
     : `${selectedSections.length} selected`
 
   return (
@@ -64,7 +64,7 @@ export function Filters({
         </PopoverTrigger>
         <PopoverContent className="section-popover" style={{ width: '320px', padding: 0 }} align="start">
           <Command>
-            <CommandInput placeholder="Filter sections..." />
+            <CommandInput placeholder="Filter languages..." />
             <CommandList style={{ maxHeight: '320px' }}>
               <CommandEmpty>No sections found.</CommandEmpty>
               <CommandGroup>

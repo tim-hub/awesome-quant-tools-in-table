@@ -43,9 +43,8 @@ const LANG_COLORS: Record<string, { bg: string; text: string; border: string }> 
   'Scala':      { bg: 'rgba(244,63,94,0.08)',   text: '#c45068', border: 'rgba(244,63,94,0.2)'   },
 }
 
-function getLangStyle(section: string) {
-  const lang = section.split('>')[0].trim()
-  return { lang, style: LANG_COLORS[lang] ?? { bg: 'rgba(100,100,120,0.08)', text: '#5a6080', border: 'rgba(100,100,120,0.2)' } }
+function getLangStyle(language: string) {
+  return LANG_COLORS[language] ?? { bg: 'rgba(100,100,120,0.08)', text: '#5a6080', border: 'rgba(100,100,120,0.2)' }
 }
 
 // GitHub SVG icon (inline, no external dep)
@@ -62,7 +61,7 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
 
   const filtered = useMemo(() => {
     if (selectedSections.length === 0) return data
-    return data.filter(p => selectedSections.includes(p.section))
+    return data.filter(p => selectedSections.includes(p.language))
   }, [data, selectedSections])
 
   const columns = useMemo(() => [
@@ -81,18 +80,20 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
     columnHelper.accessor('section', {
       header: 'Section',
       cell: info => {
-        const section = info.getValue()
-        const { lang, style } = getLangStyle(section)
-        const sub = section.includes('>') ? section.split('>').slice(1).join('>').trim() : ''
+        const section = info.getValue()         // subcategory only (from JSON)
+        const language = info.row.original.language
+        const style = getLangStyle(language)
         return (
           <div className="cell-section">
-            <span
-              className="section-lang"
-              style={{ background: style.bg, color: style.text, borderColor: style.border }}
-            >
-              {lang}
-            </span>
-            {sub && <span className="section-sub" title={sub}>{sub}</span>}
+            {language && (
+              <span
+                className="section-lang"
+                style={{ background: style.bg, color: style.text, borderColor: style.border }}
+              >
+                {language}
+              </span>
+            )}
+            {section && <span className="section-sub" title={section}>{section}</span>}
           </div>
         )
       },

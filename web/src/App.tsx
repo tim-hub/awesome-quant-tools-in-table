@@ -27,7 +27,7 @@ export default function App() {
   }, [])
 
   const sections = useMemo(
-    () => [...new Set(projects.map(p => p.section))].sort(),
+    () => [...new Set(projects.map(p => p.language).filter(Boolean))].sort(),
     [projects]
   )
 

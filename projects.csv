@@ -1,448 +1,448 @@
-project,language,section,url,description,github,cran
-numpy,Python,Numerical Libraries & Data Structures,https://www.numpy.org,NumPy is the fundamental package for scientific computing with Python.,False,False
-scipy,Python,Numerical Libraries & Data Structures,https://www.scipy.org,"SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.",False,False
-pandas,Python,Numerical Libraries & Data Structures,https://pandas.pydata.org,"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",False,False
-polars,Python,Numerical Libraries & Data Structures,https://docs.pola.rs/,Polars is a blazingly fast DataFrame library for manipulating structured data.,False,False
-quantdsl,Python,Numerical Libraries & Data Structures,https://github.com/johnbywater/quantdsl,Domain specific language for quantitative analytics in finance and trading.,True,False
-statistics,Python,Numerical Libraries & Data Structures,https://docs.python.org/3/library/statistics.html,Builtin Python library for all basic statistical calculations.,False,False
-sympy,Python,Numerical Libraries & Data Structures,https://www.sympy.org/,SymPy is a Python library for symbolic mathematics.,False,False
-pymc3,Python,Numerical Libraries & Data Structures,https://docs.pymc.io/,Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Theano.,False,False
-modelx,Python,Numerical Libraries & Data Structures,https://docs.modelx.io/,Python reimagination of spreadsheets as formula-centric objects that are interoperable with pandas.,False,False
-ArcticDB,Python,Numerical Libraries & Data Structures,https://github.com/man-group/ArcticDB,High performance datastore for time series and tick data.,True,False
-OpenBB Terminal,Python,Financial Instruments and Pricing,https://github.com/OpenBB-finance/OpenBBTerminal,Terminal for investment research for everyone.,True,False
-Fincept Terminal,Python,Financial Instruments and Pricing,https://github.com/Fincept-Corporation/FinceptTerminal,Advance Data Based A.I Terminal for all Types of Financial Asset Research.,True,False
-PyQL,Python,Financial Instruments and Pricing,https://github.com/enthought/pyql,QuantLib's Python port.,True,False
-pyfin,Python,Financial Instruments and Pricing,https://github.com/opendoor-labs/pyfin,Basic options pricing in Python. *ARCHIVED*,True,False
-vollib,Python,Financial Instruments and Pricing,https://github.com/vollib/vollib,"vollib is a python library for calculating option prices, implied volatility and greeks.",True,False
-QuantPy,Python,Financial Instruments and Pricing,https://github.com/jsmidt/QuantPy,A framework for quantitative finance In python.,True,False
-Finance-Python,Python,Financial Instruments and Pricing,https://github.com/alpha-miner/Finance-Python,Python tools for Finance.,True,False
-ffn,Python,Financial Instruments and Pricing,https://github.com/pmorissette/ffn,A financial function library for Python.,True,False
-pynance,Python,Financial Instruments and Pricing,https://github.com/GriffinAustin/pynance,Lightweight Python library for assembling and analyzing financial data.,True,False
-tia,Python,Financial Instruments and Pricing,https://github.com/bpsmith/tia,Toolkit for integration and analysis.,True,False
-hasura/base-python-dash,Python,Financial Instruments and Pricing,https://platform.hasura.io/hub/projects/hasura/base-python-dash,"Hasura quick start to deploy Dash framework. Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python.",False,False
-hasura/base-python-bokeh,Python,Financial Instruments and Pricing,https://platform.hasura.io/hub/projects/hasura/base-python-bokeh,Hasura quick start to visualize data with bokeh library.,False,False
-pysabr,Python,Financial Instruments and Pricing,https://github.com/ynouri/pysabr,SABR model Python implementation.,True,False
-FinancePy,Python,Financial Instruments and Pricing,https://github.com/domokane/FinancePy,"A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.",True,False
-gs-quant,Python,Financial Instruments and Pricing,https://github.com/goldmansachs/gs-quant,Python toolkit for quantitative finance,True,False
-willowtree,Python,Financial Instruments and Pricing,https://github.com/federicomariamassari/willowtree,Robust and flexible Python implementation of the willow tree lattice for derivatives pricing.,True,False
-financial-engineering,Python,Financial Instruments and Pricing,https://github.com/federicomariamassari/financial-engineering,"Applications of Monte Carlo methods to financial engineering projects, in Python.",True,False
-optlib,Python,Financial Instruments and Pricing,https://github.com/dbrojas/optlib,A library for financial options pricing written in Python.,True,False
-tf-quant-finance,Python,Financial Instruments and Pricing,https://github.com/google/tf-quant-finance,High-performance TensorFlow library for quantitative finance.,True,False
-Q-Fin,Python,Financial Instruments and Pricing,https://github.com/RomanMichaelPaolucci/Q-Fin,A Python library for mathematical finance.,True,False
-Quantsbin,Python,Financial Instruments and Pricing,https://github.com/quantsbin/Quantsbin,"Tools for pricing and plotting of vanilla option prices, greeks and various other analysis around them.",True,False
-finoptions,Python,Financial Instruments and Pricing,https://github.com/bbcho/finoptions-dev,Complete python implementation of R package fOptions with partial implementation of fExoticOptions for pricing various options.,True,False
-pypme,Python,Financial Instruments and Pricing,https://github.com/ymyke/pypme,PME (Public Market Equivalent) calculation.,True,False
-AbsBox,Python,Financial Instruments and Pricing,https://github.com/yellowbean/AbsBox,A Python based library to model cashflow for structured product like Asset-backed securities (ABS) and Mortgage-backed securities (MBS).,True,False
-Intrinsic-Value-Calculator,Python,Financial Instruments and Pricing,https://github.com/akashaero/Intrinsic-Value-Calculator,A Python tool for quick calculations of a stock's fair value using Discounted Cash Flow analysis.,True,False
-Kelly-Criterion,Python,Financial Instruments and Pricing,https://github.com/deltaray-io/kelly-criterion,Kelly Criterion implemented in Python to size portfolios based on J. L. Kelly Jr's formula.,True,False
-rateslib,Python,Financial Instruments and Pricing,https://github.com/attack68/rateslib,"A fixed income library for pricing bonds and bond futures, and derivatives such as IRS, cross-currency and FX swaps.",True,False
-fypy,Python,Financial Instruments and Pricing,https://github.com/jkirkby3/fypy,"Vanilla and exotic option pricing library to support quantitative R&D. Focus on pricing interesting/useful models and contracts (including and beyond Black-Scholes), as well as calibration of financial models to market data.",True,False
-pandas_talib,Python,Indicators,https://github.com/femtotrader/pandas_talib,A Python Pandas implementation of technical analysis indicators.,True,False
-finta,Python,Indicators,https://github.com/peerchemist/finta,Common financial technical analysis indicators implemented in Pandas.,True,False
-Tulipy,Python,Indicators,https://github.com/cirla/tulipy,Financial Technical Analysis Indicator Library (Python bindings for [tulipindicators](https://github.com/TulipCharts/tulipindicators)),True,False
-lppls,Python,Indicators,https://github.com/Boulder-Investment-Technologies/lppls,A Python module for fitting the [Log-Periodic Power Law Singularity (LPPLS)](https://en.wikipedia.org/wiki/Didier_Sornette#The_JLS_and_LPPLS_models) model.,True,False
-talipp,Python,Indicators,https://github.com/nardew/talipp,Incremental technical analysis library for Python.,True,False
-streaming_indicators,Python,Indicators,https://github.com/mr-easy/streaming_indicators,A python library for computing technical analysis indicators on streaming data.,True,False
-skfolio,Python,Trading & Backtesting,https://github.com/skfolio/skfolio,"Python library for portfolio optimization built on top of scikit-learn. It provides a unified interface and sklearn compatible tools to build, tune and cross-validate portfolio models.",True,False
-Investing algorithm framework,Python,Trading & Backtesting,https://github.com/coding-kitties/investing-algorithm-framework,"Framework for developing, backtesting, and deploying automated trading algorithms.",True,False
-QSTrader,Python,Trading & Backtesting,https://github.com/mhallsmoore/qstrader,QSTrader backtesting simulation engine.,True,False
-Blankly,Python,Trading & Backtesting,https://github.com/Blankly-Finance/Blankly,"Fully integrated backtesting, paper trading, and live deployment.",True,False
-TA-Lib,Python,Trading & Backtesting,https://github.com/mrjbq7/ta-lib,Python wrapper for TA-Lib (<http://ta-lib.org/>).,True,False
-zipline,Python,Trading & Backtesting,https://github.com/quantopian/zipline,Pythonic algorithmic trading library.,True,False
-zipline-reloaded,Python,Trading & Backtesting,https://github.com/stefan-jansen/zipline-reloaded,"Zipline, a Pythonic Algorithmic Trading Library.",True,False
-QuantSoftware Toolkit,Python,Trading & Backtesting,https://github.com/QuantSoftware/QuantSoftwareToolkit,Python-based open source software framework designed to support portfolio construction and management.,True,False
-quantitative,Python,Trading & Backtesting,https://github.com/jeffrey-liang/quantitative,"Quantitative finance, and backtesting library.",True,False
-analyzer,Python,Trading & Backtesting,https://github.com/llazzaro/analyzer,Python framework for real-time financial and backtesting trading strategies.,True,False
-bt,Python,Trading & Backtesting,https://github.com/pmorissette/bt,Flexible Backtesting for Python.,True,False
-backtrader,Python,Trading & Backtesting,https://github.com/backtrader/backtrader,Python Backtesting library for trading strategies.,True,False
-pythalesians,Python,Trading & Backtesting,https://github.com/thalesians/pythalesians,"Python library to backtest trading strategies, plot charts, seamlessly download market data, analyze market patterns etc.",True,False
-pybacktest,Python,Trading & Backtesting,https://github.com/ematvey/pybacktest,"Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier.",True,False
-pyalgotrade,Python,Trading & Backtesting,https://github.com/gbeced/pyalgotrade,Python Algorithmic Trading Library.,True,False
-basana,Python,Trading & Backtesting,https://github.com/gbeced/basana,"A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.",True,False
-tradingWithPython,Python,Trading & Backtesting,https://pypi.org/project/tradingWithPython/,A collection of functions and classes for Quantitative trading.,False,False
-Pandas TA,Python,Trading & Backtesting,https://github.com/twopirllc/pandas-ta,Pandas TA is an easy to use Python 3 Pandas Extension with 115+ Indicators. Easily build Custom Strategies.,True,False
-ta,Python,Trading & Backtesting,https://github.com/bukosabino/ta,Technical Analysis Library using Pandas (Python),True,False
-algobroker,Python,Trading & Backtesting,https://github.com/joequant/algobroker,This is an execution engine for algo trading.,True,False
-pysentosa,Python,Trading & Backtesting,https://pypi.org/project/pysentosa/,Python API for sentosa trading system.,False,False
-finmarketpy,Python,Trading & Backtesting,https://github.com/cuemacro/finmarketpy,Python library for backtesting trading strategies and analyzing financial markets.,True,False
-binary-martingale,Python,Trading & Backtesting,https://github.com/metaperl/binary-martingale,Computer program to automatically trade binary options martingale style.,True,False
-fooltrader,Python,Trading & Backtesting,https://github.com/foolcage/fooltrader,the project using big-data technology to provide an uniform way to analyze the whole market.,True,False
-zvt,Python,Trading & Backtesting,https://github.com/zvtvz/zvt,"the project using sql, pandas to provide an uniform and extendable way to record data, computing factors, select securities, backtesting, realtime trading and it could show all of them in clearly charts in realtime.",True,False
-pylivetrader,Python,Trading & Backtesting,https://github.com/alpacahq/pylivetrader,zipline-compatible live trading library.,True,False
-pipeline-live,Python,Trading & Backtesting,https://github.com/alpacahq/pipeline-live,zipline's pipeline capability with IEX for live trading.,True,False
-zipline-extensions,Python,Trading & Backtesting,https://github.com/quantrocket-llc/zipline-extensions,Zipline extensions and adapters for QuantRocket.,True,False
-moonshot,Python,Trading & Backtesting,https://github.com/quantrocket-llc/moonshot,Vectorized backtester and trading engine for QuantRocket based on Pandas.,True,False
-PyPortfolioOpt,Python,Trading & Backtesting,https://github.com/robertmartin8/PyPortfolioOpt,"Financial portfolio optimization in python, including classical efficient frontier and advanced methods.",True,False
-Eiten,Python,Trading & Backtesting,https://github.com/tradytics/eiten,"Eiten is an open source toolkit by Tradytics that implements various statistical and algorithmic investing strategies such as Eigen Portfolios, Minimum Variance Portfolios, Maximum Sharpe Ratio Portfolios, and Genetic Algorithms based Portfolios.",True,False
-riskparity.py,Python,Trading & Backtesting,https://github.com/dppalomar/riskparity.py,fast and scalable design of risk parity portfolios with TensorFlow 2.0,True,False
-mlfinlab,Python,Trading & Backtesting,https://github.com/hudson-and-thames/mlfinlab,"Implementations regarding ""Advances in Financial Machine Learning"" by Marcos Lopez de Prado. (Feature Engineering, Financial Data Structures, Meta-Labeling)",True,False
-pyqstrat,Python,Trading & Backtesting,https://github.com/abbass2/pyqstrat,"A fast, extensible, transparent python library for backtesting quantitative strategies.",True,False
-NowTrade,Python,Trading & Backtesting,https://github.com/edouardpoitras/NowTrade,Python library for backtesting technical/mechanical strategies in the stock and currency markets.,True,False
-pinkfish,Python,Trading & Backtesting,https://github.com/fja05680/pinkfish,A backtester and spreadsheet library for security analysis.,True,False
-aat,Python,Trading & Backtesting,https://github.com/timkpaine/aat,Async Algorithmic Trading Engine,True,False
-Backtesting.py,Python,Trading & Backtesting,https://kernc.github.io/backtesting.py/,Backtest trading strategies in Python,False,False
-catalyst,Python,Trading & Backtesting,https://github.com/enigmampc/catalyst,An Algorithmic Trading Library for Crypto-Assets in Python,True,False
-quantstats,Python,Trading & Backtesting,https://github.com/ranaroussi/quantstats,"Portfolio analytics for quants, written in Python",True,False
-qtpylib,Python,Trading & Backtesting,https://github.com/ranaroussi/qtpylib,"QTPyLib, Pythonic Algorithmic Trading <http://qtpylib.io>",True,False
-Quantdom,Python,Trading & Backtesting,https://github.com/constverum/Quantdom,Python-based framework for backtesting trading strategies & analyzing financial markets [GUI :neckbeard:],True,False
-freqtrade,Python,Trading & Backtesting,https://github.com/freqtrade/freqtrade,"Free, open source crypto trading bot",True,False
-algorithmic-trading-with-python,Python,Trading & Backtesting,https://github.com/chrisconlan/algorithmic-trading-with-python,"Free `pandas` and `scikit-learn` resources for trading simulation, backtesting, and machine learning on financial data.",True,False
-DeepDow,Python,Trading & Backtesting,https://github.com/jankrepl/deepdow,Portfolio optimization with deep learning,True,False
-Qlib,Python,Trading & Backtesting,https://github.com/microsoft/qlib,"An AI-oriented Quantitative Investment Platform by Microsoft. Full ML pipeline of data processing, model training, back-testing; and covers the entire chain of quantitative investment: alpha seeking, risk modeling, portfolio optimization, and order execution.",True,False
-machine-learning-for-trading,Python,Trading & Backtesting,https://github.com/stefan-jansen/machine-learning-for-trading,Code and resources for Machine Learning for Algorithmic Trading,True,False
-AlphaPy,Python,Trading & Backtesting,https://github.com/ScottfreeLLC/AlphaPy,"Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost",True,False
-jesse,Python,Trading & Backtesting,https://github.com/jesse-ai/jesse,An advanced crypto trading bot written in Python,True,False
-rqalpha,Python,Trading & Backtesting,https://github.com/ricequant/rqalpha,"A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities.",True,False
-FinRL-Library,Python,Trading & Backtesting,https://github.com/AI4Finance-LLC/FinRL-Library,A Deep Reinforcement Learning Library for Automated Trading in Quantitative Finance. NeurIPS 2020.,True,False
-bulbea,Python,Trading & Backtesting,https://github.com/achillesrasquinha/bulbea,Deep Learning based Python Library for Stock Market Prediction and Modelling.,True,False
-ib_nope,Python,Trading & Backtesting,https://github.com/ajhpark/ib_nope,Automated trading system for NOPE strategy over IBKR TWS.,True,False
-OctoBot,Python,Trading & Backtesting,https://github.com/Drakkar-Software/OctoBot,"Open source cryptocurrency trading bot for high frequency, arbitrage, TA and social trading with an advanced web interface.",True,False
-bta-lib,Python,Trading & Backtesting,https://github.com/mementum/bta-lib,Technical Analysis library in pandas for backtesting algotrading and quantitative analysis.,True,False
-Stock-Prediction-Models,Python,Trading & Backtesting,https://github.com/huseinzol05/Stock-Prediction-Models,Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations.,True,False
-TuneTA,Python,Trading & Backtesting,https://github.com/jmrichardson/tuneta,TuneTA optimizes technical indicators using a distance correlation measure to a user defined target feature such as next day return.,True,False
-AutoTrader,Python,Trading & Backtesting,https://github.com/kieran-mackle/AutoTrader,A Python-based development platform for automated trading systems - from backtesting to optimization to livetrading.,True,False
-fast-trade,Python,Trading & Backtesting,https://github.com/jrmeier/fast-trade,A library built with backtest portability and performance in mind for backtest trading strategies.,True,False
-qf-lib,Python,Trading & Backtesting,https://github.com/quarkfin/qf-lib,QF-Lib is a Python library that provides high quality tools for quantitative finance.,True,False
-tda-api,Python,Trading & Backtesting,https://github.com/alexgolec/tda-api,"Gather data and trade equities, options, and ETFs via TDAmeritrade.",True,False
-vectorbt,Python,Trading & Backtesting,https://github.com/polakowo/vectorbt,"Find your trading edge, using a powerful toolkit for backtesting, algorithmic trading, and research.",True,False
-Lean,Python,Trading & Backtesting,https://github.com/QuantConnect/Lean,"Lean Algorithmic Trading Engine by QuantConnect (Python, C#).",True,False
-fast-trade,Python,Trading & Backtesting,https://github.com/jrmeier/fast-trade,Low code backtesting library utilizing pandas and technical analysis indicators.,True,False
-pysystemtrade,Python,Trading & Backtesting,https://github.com/robcarver17/pysystemtrade,"pysystemtrade is the open source version of Robert Carver's backtesting and trading engine that implements systems according to the framework outlined in his book ""Systematic Trading"", which is further developed on his [blog](https://qoppac.blogspot.com/).",True,False
-pytrendseries,Python,Trading & Backtesting,https://github.com/rafa-rod/pytrendseries,"Detect trend in time series, drawdown, drawdown within a constant look-back window , maximum drawdown, time underwater.",True,False
-PyLOB,Python,Trading & Backtesting,https://github.com/DrAshBooth/PyLOB,Fully functioning fast Limit Order Book written in Python.,True,False
-PyBroker,Python,Trading & Backtesting,https://github.com/edtechre/pybroker,Algorithmic Trading with Machine Learning.,True,False
-OctoBot Script,Python,Trading & Backtesting,https://github.com/Drakkar-Software/OctoBot-Script,A quant framework to create cryptocurrencies strategies - from backtesting to optimization to livetrading.,True,False
-hftbacktest,Python,Trading & Backtesting,https://github.com/nkaz001/hftbacktest,"A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.",True,False
-vnpy,Python,Trading & Backtesting,https://github.com/vnpy/vnpy,VeighNa is a Python-based open source quantitative trading system development framework.,True,False
-Intelligent Trading Bot,Python,Trading & Backtesting,https://github.com/asavinov/intelligent-trading-bot,Automatically generating signals and trading based on machine learning and feature engineering,True,False
-fastquant,Python,Trading & Backtesting,https://github.com/enzoampil/fastquant,fastquant allows you to easily backtest investment strategies with as few as 3 lines of python code.,True,False
-nautilus_trader,Python,Trading & Backtesting,https://github.com/nautechsystems/nautilus_trader,A high-performance algorithmic trading platform and event-driven backtester.,True,False
-YABTE,Python,Trading & Backtesting,https://github.com/bsdz/yabte,Yet Another (Python) BackTesting Engine.,True,False
-Trading Strategy,Python,Trading & Backtesting,https://github.com/tradingstrategy-ai/getting-started,"TradingStrategy.ai is a market data, backtesting, live trading and investor management framework for decentralised finance",True,False
-Hikyuu,Python,Trading & Backtesting,https://github.com/fasiondog/hikyuu,"A base on Python/C++ open source high-performance quant framework for faster analysis and backtesting, contains the complete trading system components for reuse and combination.",True,False
-rust_bt,Python,Trading & Backtesting,https://github.com/jensnesten/rust_bt,"A high performance, low-latency backtesting engine for testing quantitative trading strategies on historical and live data in Rust.",True,False
-Gunbot Quant,Python,Trading & Backtesting,https://github.com/GuntharDeNiro/gunbot-quant,"Toolkit for quantitative trading analysis. It integrates an advanced market screener, a multi-strategy, multi-asset backtesting engine. Use with built-in GUI or through CLI.",True,False
-StrateQueue,Python,Trading & Backtesting,https://github.com/StrateQueue/StrateQueue,"An open‑source, broker‑agnostic Python library that lets you seamlessly deploy strategies from any major backtesting engine to live (or paper) trading with zero code changes and built‑in safety controls.",True,False
-QuantLibRisks,Python,Risk Analysis,https://github.com/auto-differentiation/QuantLib-Risks-Py,Fast risks with QuantLib,True,False
-XAD,Python,Risk Analysis,https://github.com/auto-differentiation/xad-py,Automatic Differentation (AAD) Library,True,False
-pyfolio,Python,Risk Analysis,https://github.com/quantopian/pyfolio,Portfolio and risk analytics in Python.,True,False
-empyrical,Python,Risk Analysis,https://github.com/quantopian/empyrical,Common financial risk and performance metrics.,True,False
-fecon235,Python,Risk Analysis,https://github.com/rsvp/fecon235,"Computational tools for financial economics include: Gaussian Mixture model of leptokurtotic risk, adaptive Boltzmann portfolios.",True,False
-finance,Python,Risk Analysis,https://pypi.org/project/finance/,Financial Risk Calculations. Optimized for ease of use through class construction and operator overload.,False,False
-qfrm,Python,Risk Analysis,https://pypi.org/project/qfrm/,"Quantitative Financial Risk Management: awesome OOP tools for measuring, managing and visualizing risk of financial instruments and portfolios.",False,False
-visualize-wealth,Python,Risk Analysis,https://github.com/benjaminmgross/visualize-wealth,Portfolio construction and quantitative analysis.,True,False
-VisualPortfolio,Python,Risk Analysis,https://github.com/wegamekinglc/VisualPortfolio,This tool is used to visualize the performance of a portfolio.,True,False
-universal-portfolios,Python,Risk Analysis,https://github.com/Marigold/universal-portfolios,Collection of algorithms for online portfolio selection.,True,False
-FinQuant,Python,Risk Analysis,https://github.com/fmilthaler/FinQuant,"A program for financial portfolio management, analysis and optimization.",True,False
-Empyrial,Python,Risk Analysis,https://github.com/ssantoshp/Empyrial,Portfolio's risk and performance analytics and returns predictions.,True,False
-risktools,Python,Risk Analysis,https://github.com/bbcho/risktools-dev,Risk tools for use within the crude and crude products trading space with partial implementation of R's PerformanceAnalytics.,True,False
-Riskfolio-Lib,Python,Risk Analysis,https://github.com/dcajasn/Riskfolio-Lib,Portfolio Optimization and Quantitative Strategic Asset Allocation in Python.,True,False
-empyrical-reloaded,Python,Risk Analysis,https://github.com/stefan-jansen/empyrical-reloaded,Common financial risk and performance metrics. [empyrical](https://github.com/quantopian/empyrical) fork.,True,False
-pyfolio-reloaded,Python,Risk Analysis,https://github.com/stefan-jansen/pyfolio-reloaded,Portfolio and risk analytics in Python. [pyfolio](https://github.com/quantopian/pyfolio) fork.,True,False
-fortitudo.tech,Python,Risk Analysis,https://github.com/fortitudo-tech/fortitudo.tech,Conditional Value-at-Risk (CVaR) portfolio optimization and Entropy Pooling views / stress-testing in Python.,True,False
-quantitative-finance-tools,Python,Risk Analysis,https://github.com/omichauhan-lgtm/quantitative-finance-tools,Library for portfolio optimization (MVO) and rigorous risk metrics (VaR/CVaR).,True,False
-alphalens,Python,Factor Analysis,https://github.com/quantopian/alphalens,Performance analysis of predictive alpha factors.,True,False
-alphalens-reloaded,Python,Factor Analysis,https://github.com/stefan-jansen/alphalens-reloaded,Performance analysis of predictive (alpha) stock factors.,True,False
-Spectre,Python,Factor Analysis,https://github.com/Heerozh/spectre,GPU-accelerated Factors analysis library and Backtester,True,False
-Asset News Sentiment Analyzer,Python,Sentiment Analysis,https://github.com/KVignesh122/AssetNewsSentimentAnalyzer,Sentiment analysis and report generation package for financial assets and securities utilizing GPT models.,True,False
-Jupyter Quant,Python,Quant Research Environment,https://github.com/gnzsnz/jupyter-quant,"A dockerized Jupyter quant research environment with preloaded tools for quant analysis, statsmodels, pymc, arch, py_vollib, zipline-reloaded, PyPortfolioOpt, etc.",True,False
-ARCH,Python,Time Series,https://github.com/bashtage/arch,ARCH models in Python.,True,False
-statsmodels,Python,Time Series,http://statsmodels.sourceforge.net,"Python module that allows users to explore data, estimate statistical models, and perform statistical tests.",False,False
-dynts,Python,Time Series,https://github.com/quantmind/dynts,Python package for timeseries analysis and manipulation.,True,False
-PyFlux,Python,Time Series,https://github.com/RJT1990/pyflux,Python library for timeseries modelling and inference (frequentist and Bayesian) on models.,True,False
-tsfresh,Python,Time Series,https://github.com/blue-yonder/tsfresh,Automatic extraction of relevant features from time series.,True,False
-hasura/quandl-metabase,Python,Time Series,https://platform.hasura.io/hub/projects/anirudhm/quandl-metabase-time-series,Hasura quickstart to visualize Quandl's timeseries datasets with Metabase.,False,False
-Facebook Prophet,Python,Time Series,https://github.com/facebook/prophet,Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.,True,False
-tsmoothie,Python,Time Series,https://github.com/cerlymarco/tsmoothie,A python library for time-series smoothing and outlier detection in a vectorized way.,True,False
-pmdarima,Python,Time Series,https://github.com/alkaline-ml/pmdarima,"A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.",True,False
-gluon-ts,Python,Time Series,https://github.com/awslabs/gluon-ts,vProbabilistic time series modeling in Python.,True,False
-functime,Python,Time Series,https://github.com/functime-org/functime,Time-series machine learning at scale. Built with Polars for embarrassingly parallel feature extraction and forecasts on panel data.,True,False
-exchange_calendars,Python,Calendars,https://github.com/gerrymanoim/exchange_calendars,Stock Exchange Trading Calendars.,True,False
-bizdays,Python,Calendars,https://github.com/wilsonfreitas/python-bizdays,Business days calculations and utilities.,True,False
-pandas_market_calendars,Python,Calendars,https://github.com/rsheftel/pandas_market_calendars,Exchange calendars to use with pandas for trading applications.,True,False
-yfinance,Python,Data Sources,https://github.com/ranaroussi/yfinance,Yahoo! Finance market data downloader (+faster Pandas Datareader),True,False
-defeatbeta-api,Python,Data Sources,https://github.com/defeat-beta/defeatbeta-api,An open-source alternative to Yahoo Finance's market data APIs with higher reliability.,True,False
-findatapy,Python,Data Sources,https://github.com/cuemacro/findatapy,"Python library to download market data via Bloomberg, Quandl, Yahoo etc.",True,False
-googlefinance,Python,Data Sources,https://github.com/hongtaocai/googlefinance,Python module to get real-time stock data from Google Finance API.,True,False
-yahoo-finance,Python,Data Sources,https://github.com/lukaszbanasiak/yahoo-finance,Python module to get stock data from Yahoo! Finance.,True,False
-pandas-datareader,Python,Data Sources,https://github.com/pydata/pandas-datareader,"Python module to get data from various sources (Google Finance, Yahoo Finance, FRED, OECD, Fama/French, World Bank, Eurostat...) into Pandas datastructures such as DataFrame, Panel with a caching mechanism.",True,False
-pandas-finance,Python,Data Sources,https://github.com/davidastephens/pandas-finance,High level API for access to and analysis of financial data.,True,False
-pyhoofinance,Python,Data Sources,https://github.com/innes213/pyhoofinance,Rapidly queries Yahoo Finance for multiple tickers and returns typed data for analysis.,True,False
-yfinanceapi,Python,Data Sources,https://github.com/Karthik005/yfinanceapi,Finance API for Python.,True,False
-yql-finance,Python,Data Sources,https://github.com/slawek87/yql-finance,"yql-finance is simple and fast. API returns stock closing prices for current period of time and current stock ticker (i.e. APPL, GOOGL).",True,False
-ystockquote,Python,Data Sources,https://github.com/cgoldberg/ystockquote,Retrieve stock quote data from Yahoo Finance.,True,False
-wallstreet,Python,Data Sources,https://github.com/mcdallas/wallstreet,Real time stock and option data.,True,False
-stock_extractor,Python,Data Sources,https://github.com/ZachLiuGIS/stock_extractor,General Purpose Stock Extractors from Online Resources.,True,False
-Stockex,Python,Data Sources,https://github.com/cttn/Stockex,Python wrapper for Yahoo! Finance API.,True,False
-finsymbols,Python,Data Sources,https://github.com/skillachie/finsymbols,"Obtains stock symbols and relating information for SP500, AMEX, NYSE, and NASDAQ.",True,False
-FRB,Python,Data Sources,https://github.com/avelkoski/FRB,Python Client for FRED® API.,True,False
-inquisitor,Python,Data Sources,https://github.com/econdb/inquisitor,Python Interface to Econdb.com API.,True,False
-yfi,Python,Data Sources,https://github.com/nickelkr/yfi,Yahoo! YQL library.,True,False
-chinesestockapi,Python,Data Sources,https://pypi.org/project/chinesestockapi/,Python API to get Chinese stock price.,False,False
-exchange,Python,Data Sources,https://github.com/akarat/exchange,Get current exchange rate.,True,False
-ticks,Python,Data Sources,https://github.com/jamescnowell/ticks,Simple command line tool to get stock ticker data.,True,False
-pybbg,Python,Data Sources,https://github.com/bpsmith/pybbg,Python interface to Bloomberg COM APIs.,True,False
-ccy,Python,Data Sources,https://github.com/lsbardel/ccy,Python module for currencies.,True,False
-tushare,Python,Data Sources,https://pypi.org/project/tushare/,A utility for crawling historical and Real-time Quotes data of China stocks.,False,False
-jsm,Python,Data Sources,https://pypi.org/project/jsm/,Get the japanese stock market data.,False,False
-cn_stock_src,Python,Data Sources,https://github.com/jealous/cn_stock_src,Utility for retrieving basic China stock data from different sources.,True,False
-coinmarketcap,Python,Data Sources,https://github.com/barnumbirr/coinmarketcap,Python API for coinmarketcap.,True,False
-after-hours,Python,Data Sources,https://github.com/datawrestler/after-hours,Obtain pre market and after hours stock prices for a given symbol.,True,False
-bronto-python,Python,Data Sources,https://pypi.org/project/bronto-python/,Bronto API Integration for Python.,False,False
-pytdx,Python,Data Sources,https://github.com/rainx/pytdx,Python Interface for retrieving chinese stock realtime quote data from TongDaXin Nodes.,True,False
-pdblp,Python,Data Sources,https://github.com/matthewgilbert/pdblp,A simple interface to integrate pandas and the Bloomberg Open API.,True,False
-tiingo,Python,Data Sources,https://github.com/hydrosquall/tiingo-python,"Python interface for daily composite prices/OHLC/Volume + Real-time News Feeds, powered by the Tiingo Data Platform.",True,False
-iexfinance,Python,Data Sources,https://github.com/addisonlynch/iexfinance,Python Interface for retrieving real-time and historical prices and equities data from The Investor's Exchange.,True,False
-pyEX,Python,Data Sources,https://github.com/timkpaine/pyEX,"Python interface to IEX with emphasis on pandas, support for streaming data, premium data, points data (economic, rates, commodities), and technical indicators.",True,False
-alpaca-trade-api,Python,Data Sources,https://github.com/alpacahq/alpaca-trade-api-python,Python interface for retrieving real-time and historical prices from Alpaca API as well as trade execution.,True,False
-metatrader5,Python,Data Sources,https://pypi.org/project/MetaTrader5/,API Connector to MetaTrader 5 Terminal,False,False
-akshare,Python,Data Sources,https://github.com/jindaxiang/akshare,"AkShare is an elegant and simple financial data interface library for Python, built for human beings! <https://akshare.readthedocs.io>",True,False
-yahooquery,Python,Data Sources,https://github.com/dpguthrie/yahooquery,Python interface for retrieving data through unofficial Yahoo Finance API.,True,False
-investpy,Python,Data Sources,https://github.com/alvarobartt/investpy,Financial Data Extraction from Investing.com with Python! <https://investpy.readthedocs.io/>,True,False
-yliveticker,Python,Data Sources,https://github.com/yahoofinancelive/yliveticker,Live stream of market data from Yahoo Finance websocket.,True,False
-bbgbridge,Python,Data Sources,https://github.com/ran404/bbgbridge,Easy to use Bloomberg Desktop API wrapper for Python.,True,False
-polygon.io,Python,Data Sources,https://github.com/polygon-io/client-python,A python library for Polygon.io financial data APIs.,True,False
-alpha_vantage,Python,Data Sources,https://github.com/RomelTorres/alpha_vantage,A python wrapper for Alpha Vantage API for financial data.,True,False
-oilpriceapi,Python,Data Sources,https://github.com/OilpriceAPI/python-sdk,"Python SDK for real-time oil and commodity prices (WTI, Brent, Urals, natural gas, coal) with OpenBB integration.",True,False
-FinanceDataReader,Python,Data Sources,https://github.com/FinanceData/FinanceDataReader,"Open Source Financial data reader for U.S, Korean, Japanese, Chinese, Vietnamese Stocks",True,False
-pystlouisfed,Python,Data Sources,https://github.com/TomasKoutek/pystlouisfed,"Python client for Federal Reserve Bank of St. Louis API - FRED, ALFRED, GeoFRED and FRASER.",True,False
-python-bcb,Python,Data Sources,https://github.com/wilsonfreitas/python-bcb,Python interface to Brazilian Central Bank web services.,True,False
-market-prices,Python,Data Sources,https://github.com/maread99/market_prices,Create meaningful OHLCV datasets from knowledge of [exchange-calendars](https://github.com/gerrymanoim/exchange_calendars) (works out-the-box with data from Yahoo Finance).,True,False
-tardis-python,Python,Data Sources,https://github.com/tardis-dev/tardis-python,Python interface for Tardis.dev high frequency crypto market data,True,False
-lake-api,Python,Data Sources,https://github.com/crypto-lake/lake-api,Python interface for Crypto Lake high frequency crypto market data,True,False
-tessa,Python,Data Sources,https://github.com/ymyke/tessa,"simple, hassle-free access to price information of financial assets (currently based on yfinance and pycoingecko), including search and a symbol class.",True,False
-pandaSDMX,Python,Data Sources,https://github.com/dr-leo/pandaSDMX,"Python package that implements SDMX 2.1 (ISO 17369:2013), a format for exchange of statistical data and metadata used by national statistical agencies, central banks, and international organisations.",True,False
-cif,Python,Data Sources,https://github.com/LenkaV/CIF,"Python package that include few composite indicators, which summarize multidimensional relationships between individual economic indicators.",True,False
-finagg,Python,Data Sources,https://github.com/theOGognf/finagg,"finagg is a Python package that provides implementations of popular and free financial APIs, tools for aggregating historical data from those APIs into SQL databases, and tools for transforming aggregated data into features useful for analysis and AI/ML.",True,False
-FinanceDatabase,Python,Data Sources,https://github.com/JerBouma/FinanceDatabase,"This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",True,False
-Trading Strategy,Python,Data Sources,https://github.com/tradingstrategy-ai/trading-strategy/,download price data for decentralised exchanges and lending protocols (DeFi),True,False
-datamule-python,Python,Data Sources,https://github.com/john-friedman/datamule-python,A package to work with SEC data. Incorporates datamule endpoints.,True,False
-Earnings Feed,Python,Data Sources,https://earningsfeed.com/api,"Real-time SEC filings, insider trades, and institutional holdings API.",False,False
-Financial Data,Python,Data Sources,https://financialdata.net/,Stock Market and Financial Data API.,False,False
-SaxoOpenAPI,Python,Data Sources,https://www.developer.saxo/,Saxo Bank financial data API.,False,False
-fsynth,Python,Data Sources,https://github.com/welcra/fsynth,Python library for high-fidelity unlimited synthetic financial data generation using Heston Stochastic Volatility and Merton Jump Diffusion.,True,False
-fedfred,Python,Data Sources,https://nikhilxsunder.github.io/fedfred/,"FRED & GeoFRED Economic data API with preprocessed dataframe output in pandas/geopandas, polars/polars_st, and dask dataframes/geodataframes.",False,False
-edgar-sec,Python,Data Sources,https://nikhilxsunder.github.io/edgar-sec/,EDGAR Financial data API with preprocessed dataclass outputs.,False,False
-xlwings,Python,Excel Integration,https://www.xlwings.org/,Make Excel fly with Python.,False,False
-openpyxl,Python,Excel Integration,https://openpyxl.readthedocs.io/en/latest/,Read/Write Excel 2007 xlsx/xlsm files.,False,False
-xlrd,Python,Excel Integration,https://github.com/python-excel/xlrd,Library for developers to extract data from Microsoft Excel spreadsheet files.,True,False
-xlsxwriter,Python,Excel Integration,https://xlsxwriter.readthedocs.io/,Write files in the Excel 2007+ XLSX file format.,False,False
-xlwt,Python,Excel Integration,https://github.com/python-excel/xlwt,"Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform.",True,False
-DataNitro,Python,Excel Integration,https://datanitro.com/,"DataNitro also offers full-featured Python-Excel integration, including UDFs. Trial downloads are available, but users must purchase a license.",False,False
-xlloop,Python,Excel Integration,http://xlloop.sourceforge.net,XLLoop is an open source framework for implementing Excel user-defined functions (UDFs) on a centralised server (a function server).,False,False
-expy,Python,Excel Integration,http://www.bnikolic.co.uk/expy/expy.html,"The ExPy add-in allows easy use of Python directly from within an Microsoft Excel spreadsheet, both to execute arbitrary code and to define new Excel functions.",False,False
-pyxll,Python,Excel Integration,https://www.pyxll.com,PyXLL is an Excel add-in that enables you to extend Excel using nothing but Python code.,False,False
-D-Tale,Python,Visualization,https://github.com/man-group/dtale,Visualizer for pandas dataframes and xarray datasets.,True,False
-mplfinance,Python,Visualization,https://github.com/matplotlib/mplfinance,"matplotlib utilities for the visualization, and visual analysis, of financial data.",True,False
-finplot,Python,Visualization,https://github.com/highfestiva/finplot,Performant and effortless finance plotting for Python.,True,False
-finvizfinance,Python,Visualization,https://github.com/lit26/finvizfinance,Finviz analysis python library.,True,False
-market-analy,Python,Visualization,https://github.com/maread99/market_analy,Analysis and interactive charting using [market-prices](https://github.com/maread99/market_prices) and bqplot.,True,False
-QuantInvestStrats,Python,Visualization,https://github.com/ArturSepp/QuantInvestStrats,"Quantitative Investment Strategies (QIS) package implements Python analytics for visualisation of financial data, performance reporting, analysis of quantitative strategies.",True,False
-xts,R,Numerical Libraries & Data Structures,https://github.com/joshuaulrich/xts,"eXtensible Time Series: Provide for uniform handling of R's different time-based data classes by extending zoo, maximizing native format information preservation and allowing for user level customization and extension, while simplifying cross-class interoperability.",True,False
-data.table,R,Numerical Libraries & Data Structures,https://github.com/Rdatatable/data.table,"Extension of data.frame: Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns and a fast file reader (fread). Offers a natural and flexible syntax, for faster development.",True,False
-sparseEigen,R,Numerical Libraries & Data Structures,https://github.com/dppalomar/sparseEigen,Sparse principal component analysis.,True,False
-TSdbi,R,Numerical Libraries & Data Structures,http://tsdbi.r-forge.r-project.org/,Provides a common interface to time series databases.,False,False
-tseries,R,Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tseries/index.html,Time Series Analysis and Computational Finance.,False,True
-zoo,R,Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/zoo/index.html,S3 Infrastructure for Regular and Irregular Time Series (Z's Ordered Observations).,False,True
-tis,R,Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tis/index.html,"Functions and S3 classes for time indexes and time indexed series, which are compatible with FAME frequencies.",False,True
-tfplot,R,Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tfplot/index.html,Utilities for simple manipulation and quick plotting of time series data.,False,True
-tframe,R,Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tframe/index.html,A kernel of functions for programming time series methods in a way that is relatively independently of the representation of time.,False,True
-IBrokers,R,Data Sources,https://cran.r-project.org/web/packages/IBrokers/index.html,Provides native R access to Interactive Brokers Trader Workstation API.,False,True
-Rblpapi,R,Data Sources,https://github.com/Rblp/Rblpapi,An R Interface to 'Bloomberg' is provided via the 'Blp API'.,True,False
-Quandl,R,Data Sources,https://www.quandl.com/tools/r,Get Financial Data Directly Into R.,False,False
-Rbitcoin,R,Data Sources,https://github.com/jangorecki/Rbitcoin,"Unified markets API interface (bitstamp, kraken, btce, bitmarket).",True,False
-GetTDData,R,Data Sources,https://github.com/msperlin/GetTDData,Downloads and aggregates data for Brazilian government issued bonds directly from the website of Tesouro Direto.,True,False
-GetHFData,R,Data Sources,https://github.com/msperlin/GetHFData,Downloads and aggregates high frequency trading data for Brazilian instruments directly from Bovespa ftp site.,True,False
-Reddit WallstreetBets API,R,Data Sources,https://dashboard.nbshare.io/apps/reddit/api/,Provides daily top 50 stocks from reddit (subreddit) Wallstreetbets and their sentiments via the API.,False,False
-td,R,Data Sources,https://github.com/eddelbuettel/td,Interfaces the 'twelvedata' API for stocks and (digital and standard) currencies.,True,False
-rbcb,R,Data Sources,https://github.com/wilsonfreitas/rbcb,R interface to Brazilian Central Bank web services.,True,False
-rb3,R,Data Sources,https://github.com/ropensci/rb3,A bunch of downloaders and parsers for data delivered from B3.,True,False
-simfinapi,R,Data Sources,https://github.com/matthiasgomolka/simfinapi,Makes 'SimFin' data (<https://simfin.com/>) easily accessible in R.,True,False
-tidyfinance,R,Data Sources,https://github.com/tidy-finance/r-tidyfinance,"Tidy Finance helper functions to download financial data and process the raw data into a structured Format (tidy data), including",True,False
-RQuantLib,R,Financial Instruments and Pricing,https://github.com/eddelbuettel/rquantlib,RQuantLib connects GNU R with QuantLib.,True,False
-quantmod,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/quantmod/index.html,Quantitative Financial Modelling Framework.,False,True
-Rmetrics,R,Financial Instruments and Pricing,https://www.rmetrics.org,The premier open source software solution for teaching and training quantitative finance.,False,False
-fAsianOptions,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fAsianOptions/index.html,EBM and Asian Option Valuation.,False,True
-fAssets,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fAssets/index.html,Analysing and Modelling Financial Assets.,False,True
-fBasics,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fBasics/index.html,Markets and Basic Statistics.,False,True
-fBonds,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fBonds/index.html,Bonds and Interest Rate Models.,False,True
-fExoticOptions,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fExoticOptions/index.html,Exotic Option Valuation.,False,True
-fOptions,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fOptions/index.html,Pricing and Evaluating Basic Options.,False,True
-fPortfolio,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fPortfolio/index.html,Portfolio Selection and Optimization.,False,True
-portfolio,R,Financial Instruments and Pricing,https://github.com/dgerlanc/portfolio,Analysing equity portfolios.,True,False
-sparseIndexTracking,R,Financial Instruments and Pricing,https://github.com/dppalomar/sparseIndexTracking,Portfolio design to track an index.,True,False
-covFactorModel,R,Financial Instruments and Pricing,https://github.com/dppalomar/covFactorModel,Covariance matrix estimation via factor models.,True,False
-riskParityPortfolio,R,Financial Instruments and Pricing,https://github.com/dppalomar/riskParityPortfolio,Blazingly fast design of risk parity portfolios.,True,False
-sde,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/sde/index.html,Simulation and Inference for Stochastic Differential Equations.,False,True
-YieldCurve,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/YieldCurve/index.html,Modelling and estimation of the yield curve.,False,True
-SmithWilsonYieldCurve,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/SmithWilsonYieldCurve/index.html,Constructs a yield curve by the Smith-Wilson method from a table of LIBOR and SWAP rates.,False,True
-ycinterextra,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/ycinterextra/index.html,Yield curve or zero-coupon prices interpolation and extrapolation.,False,True
-AmericanCallOpt,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/AmericanCallOpt/index.html,This package includes pricing function for selected American call options with underlying assets that generate payouts.,False,True
-VarSwapPrice,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/VarSwapPrice/index.html,Pricing a variance swap on an equity index.,False,True
-RND,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/RND/index.html,Risk Neutral Density Extraction Package.,False,True
-LSMonteCarlo,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/LSMonteCarlo/index.html,American options pricing with Least Squares Monte Carlo method.,False,True
-OptHedging,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/OptHedging/index.html,Estimation of value and hedging strategy of call and put options.,False,True
-tvm,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/tvm/index.html,Time Value of Money Functions.,False,True
-OptionPricing,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/OptionPricing/index.html,Option Pricing with Efficient Simulation Algorithms.,False,True
-credule,R,Financial Instruments and Pricing,https://github.com/blenezet/credule,Credit Default Swap Functions.,True,False
-derivmkts,R,Financial Instruments and Pricing,https://cran.r-project.org/web/packages/derivmkts/index.html,Functions and R Code to Accompany Derivatives Markets.,False,True
-FinCal,R,Financial Instruments and Pricing,https://github.com/felixfan/FinCal,"Package for time value of money calculation, time series analysis and computational finance.",True,False
-r-quant,R,Financial Instruments and Pricing,https://github.com/artyyouth/r-quant,R code for quantitative analysis in finance.,True,False
-options.studies,R,Financial Instruments and Pricing,https://github.com/taylorizing/options.studies,options trading studies functions for use with options.data package and shiny.,True,False
-PortfolioAnalytics,R,Financial Instruments and Pricing,https://github.com/braverock/PortfolioAnalytics,"Portfolio Analysis, Including Numerical Methods for Optimizationof Portfolios.",True,False
-fmbasics,R,Financial Instruments and Pricing,https://github.com/imanuelcostigan/fmbasics,Financial Market Building Blocks.,True,False
-R-fixedincome,R,Financial Instruments and Pricing,https://github.com/wilsonfreitas/R-fixedincome,Fixed income tools for R.,True,False
-backtest,R,Trading,https://cran.r-project.org/web/packages/backtest/index.html,Exploring Portfolio-Based Conjectures About Financial Instruments.,False,True
-pa,R,Trading,https://cran.r-project.org/web/packages/pa/index.html,Performance Attribution for Equity Portfolios.,False,True
-TTR,R,Trading,https://github.com/joshuaulrich/TTR,Technical Trading Rules.,True,False
-QuantTools,R,Trading,https://quanttools.bitbucket.io/_site/index.html,Enhanced Quantitative Trading Modelling.,False,False
-blotter,R,Trading,https://github.com/braverock/blotter,"Transaction infrastructure for defining instruments, transactions, portfolios and accounts for trading systems and simulation. Provides portfolio support for multi-asset class and multi-currency portfolios. Actively maintained and developed.",True,False
-quantstrat,R,Backtesting,https://github.com/braverock/quantstrat,Transaction-oriented infrastructure for constructing trading systems and simulation. Provides support for multi-asset class and multi-currency portfolios for backtesting and other financial research.,True,False
-PerformanceAnalytics,R,Risk Analysis,https://github.com/braverock/PerformanceAnalytics,Econometric tools for performance and risk analysis.,True,False
-FactorAnalytics,R,Factor Analysis,https://github.com/braverock/FactorAnalytics,"The FactorAnalytics package contains fitting and analysis methods for the three main types of factor models used in conjunction with portfolio construction, optimization and risk management, namely fundamental factor models, time series factor models and statistical factor models.",True,False
-Expected Returns,R,Factor Analysis,https://github.com/JustinMShea/ExpectedReturns,"Solutions for enhancing portfolio diversification and replications of seminal papers with R, most of which are discussed in one of the best investment references of the recent decade, Expected Returns: An Investors Guide to Harvesting Market Rewards by Antti Ilmanen.",True,False
-tseries,R,Time Series,https://cran.r-project.org/web/packages/tseries/index.html,Time Series Analysis and Computational Finance.,False,True
-fGarch,R,Time Series,https://cran.r-project.org/web/packages/fGarch/index.html,Rmetrics - Autoregressive Conditional Heteroskedastic Modelling.,False,True
-timeSeries,R,Time Series,https://cran.r-project.org/web/packages/timeSeries/index.html,Rmetrics - Financial Time Series Objects.,False,True
-rugarch,R,Time Series,https://github.com/alexiosg/rugarch,Univariate GARCH Models.,True,False
-rmgarch,R,Time Series,https://github.com/alexiosg/rmgarch,Multivariate GARCH Models.,True,False
-tidypredict,R,Time Series,https://github.com/edgararuiz/tidypredict,Run predictions inside the database <https://tidypredict.netlify.com/>.,True,False
-tidyquant,R,Time Series,https://github.com/business-science/tidyquant,Bringing financial analysis to the tidyverse.,True,False
-timetk,R,Time Series,https://github.com/business-science/timetk,A toolkit for working with time series in R.,True,False
-tibbletime,R,Time Series,https://github.com/business-science/tibbletime,"Built on top of the tidyverse, tibbletime is an extension that allows for the creation of time aware tibbles through the setting of a time index.",True,False
-matrixprofile,R,Time Series,https://github.com/matrix-profile-foundation/matrixprofile,Time series data mining library built on top of the novel Matrix Profile data structure and algorithms.,True,False
-garchmodels,R,Time Series,https://github.com/AlbertoAlmuinha/garchmodels,A parsnip backend for GARCH models.,True,False
-timeDate,R,Calendars,https://cran.r-project.org/web/packages/timeDate/index.html,Chronological and Calendar Objects,False,True
-bizdays,R,Calendars,https://github.com/wilsonfreitas/R-bizdays,Business days calculations and utilities,True,False
-RunMat,Matlab,Alternatives,https://runmat.org,"High performance, Open Source, MATLAB syntax runtime.",False,False
-QUANTAXIS,Matlab,FrameWorks,https://github.com/yutiansut/quantaxis,Integrated Quantitative Toolbox with Matlab.,True,False
-PROJ_Option_Pricing_Matlab,Matlab,FrameWorks,https://github.com/jkirkby3/PROJ_Option_Pricing_Matlab,"Quant Option Pricing - Exotic/Vanilla: Barrier, Asian, European, American, Parisian, Lookback, Cliquet, Variance Swap, Swing, Forward Starting, Step, Fader",True,False
-CcyConv,,Julia,https://github.com/bhftbootcamp/CcyConv.jl,Currency conversion library for Julia,True,False
-CryptoExchangeAPIs.jl,,Julia,https://github.com/bhftbootcamp/CryptoExchangeAPIs.jl,A Julia library for cryptocurrency exchange APIs,True,False
-Fastback.jl,,Julia,https://github.com/rbeeli/Fastback.jl,Blazing fast Julia backtester.,True,False
-Lucky.jl,,Julia,https://github.com/oliviermilla/Lucky.jl,"Modular, asynchronous trading engine in pure Julia.",True,False
-QuantLib.jl,,Julia,https://github.com/pazzo83/QuantLib.jl,Quantlib implementation in pure Julia.,True,False
-Ito.jl,,Julia,https://github.com/aviks/Ito.jl,A Julia package for quantitative finance.,True,False
-LightweightCharts.jl,,Julia,https://github.com/bhftbootcamp/LightweightCharts.jl,Julia wrapper for Lightweight Charts™ by TradingView.,True,False
-TALib.jl,,Julia,https://github.com/femtotrader/TALib.jl,A Julia wrapper for TA-Lib.,True,False
-Miletus.jl,,Julia,https://github.com/JuliaComputing/Miletus.jl,"A financial contract definition, modeling language, and valuation framework.",True,False
-Temporal.jl,,Julia,https://github.com/dysonance/Temporal.jl,Flexible and efficient time series class & methods.,True,False
-Indicators.jl,,Julia,https://github.com/dysonance/Indicators.jl,Financial market technical analysis & indicators on top of Temporal.,True,False
-Strategems.jl,,Julia,https://github.com/dysonance/Strategems.jl,Quantitative systematic trading strategy development and backtesting.,True,False
-TimeSeries.jl,,Julia,https://github.com/JuliaStats/TimeSeries.jl,Time series toolkit for Julia.,True,False
-TechnicalIndicatorCharts.jl,,Julia,https://github.com/g-gundam/TechnicalIndicatorCharts.jl,Visualize OnlineTechnicalIndicators.jl using LightweightCharts.jl.,True,False
-MarketTechnicals.jl,,Julia,https://github.com/JuliaQuant/MarketTechnicals.jl,Technical analysis of financial time series on top of TimeSeries.,True,False
-MarketData.jl,,Julia,https://github.com/JuliaQuant/MarketData.jl,Time series market data.,True,False
-OnlineTechnicalIndicators.jl,,Julia,https://github.com/femtotrader/OnlineTechnicalIndicators.jl,Julia Technical Analysis Indicators via online algorithms.,True,False
-OnlineTechnicalIndicators,,Julia,https://github.com/femtotrader/OnlinePortfolioAnalytics.jl,A Julia quantitative portfolio analytics (risk / performance) via online algorithms.,True,False
-OnlineResamplers.jl,,Julia,https://github.com/femtotrader/OnlineResamplers.jl,High-performance Julia package for real-time resampling of financial market data.,True,False
-RiskPerf.jl,,Julia,https://github.com/rbeeli/RiskPerf.jl,Quantitative risk and performance analysis package for financial time series powered by the Julia language.,True,False
-TimeFrames.jl,,Julia,https://github.com/femtotrader/TimeFrames.jl,A Julia library that defines TimeFrame (essentially for resampling TimeSeries).,True,False
-DataFrames.jl,,Julia,https://github.com/JuliaData/DataFrames.jl,In-memory tabular data in Julia,True,False
-TSFrames.jl,,Julia,https://github.com/xKDR/TSFrames.jl,Handle timeseries data on top of the powerful and mature DataFrames.jl,True,False
-TimeArrays.jl,,Julia,https://github.com/bhftbootcamp/TimeArrays.jl,Time series handling for Julia,True,False
-Strata,,Java,http://strata.opengamma.io/,Modern open-source analytics and market risk library designed and written in Java.,False,False
-JQuantLib,,Java,https://github.com/frgomes/jquantlib,"JQuantLib is a free, open-source, comprehensive framework for quantitative finance, written in 100% Java.",True,False
-finmath.net,,Java,http://finmath.net,Java library with algorithms and methodologies related to mathematical finance.,False,False
-quantcomponents,,Java,https://github.com/lsgro/quantcomponents,Free Java components for Quantitative Finance and Algorithmic Trading.,True,False
-DRIP,,Java,https://lakshmidrip.github.io/DRIP,"Fixed Income, Asset Allocation, Transaction Cost Analysis, XVA Metrics Libraries.",False,False
-ta4j,,Java,https://github.com/ta4j/ta4j,A Java library for technical analysis.,True,False
-finance.js,,JavaScript,https://github.com/ebradyjobory/finance.js,A JavaScript library for common financial calculations.,True,False
-portfolio-allocation,,JavaScript,https://github.com/lequant40/portfolio_allocation_js,"PortfolioAllocation is a JavaScript library designed to help constructing financial portfolios made of several assets: bonds, commodities, cryptocurrencies, currencies, exchange traded funds (ETFs), mutual funds, stocks...",True,False
-Ghostfolio,,JavaScript,https://github.com/ghostfolio/ghostfolio,"Wealth management software to keep track of financial assets like stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions.",True,False
-IndicatorTS,,JavaScript,https://github.com/cinar/indicatorts,"Indicator is a TypeScript module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",True,False
-chart-patterns,,JavaScript,https://github.com/focus1691/chart-patterns,"Technical analysis library for Market Profile, Volume Profile, Stacked Imbalances and High Volume Node indicators.",True,False
-orderflow,,JavaScript,https://github.com/focus1691/orderflow,Orderflow trade aggregator for building Footprint Candles from exchange websocket data.,True,False
-ccxt,,JavaScript,https://github.com/ccxt/ccxt,A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges.,True,False
-PENDAX,,JavaScript,https://github.com/CompendiumFi/PENDAX-SDK,"Javascript SDK for Trading/Data API and Websockets for FTX, FTXUS, OKX, Bybit, & More.",True,False
-QUANTAXIS_Webkit,JavaScript,Data Visualization,https://github.com/yutiansut/QUANTAXIS_Webkit,An awesome visualization center based on quantaxis.,True,False
-quantfin,,Haskell,https://github.com/boundedvariation/quantfin,quant finance in pure haskell.,True,False
-Haxcel,,Haskell,https://github.com/MarcusRainbow/Haxcel,Excel Addin for Haskell.,True,False
-Ffinar,,Haskell,https://github.com/MarcusRainbow/Ffinar,A financial maths library in Haskell.,True,False
-QuantScale,,Scala,https://github.com/choucrifahed/quantscale,Scala Quantitative Finance Library.,True,False
-Scala Quant,,Scala,https://github.com/frankcash/Scala-Quant,Scala library for working with stock data from IFTTT recipes or Google Finance.,True,False
-Jiji,,Ruby,https://github.com/unageanu/jiji2,Open Source Forex algorithmic trading framework using OANDA REST API.,True,False
-Tai,,Elixir/Erlang,https://github.com/fremantle-capital/tai,"Open Source composable, real time, market data and trade execution toolkit.",True,False
-Workbench,,Elixir/Erlang,https://github.com/fremantle-industries/workbench,From Idea to Execution - Manage your trading operation across a globally distributed cluster,True,False
-Prop,,Elixir/Erlang,https://github.com/fremantle-industries/prop,"An open and opinionated trading platform using productive & familiar open source libraries and tools for strategy research, execution and operation.",True,False
-Kelp,,Golang,https://github.com/stellar/kelp,Kelp is an open-source Golang algorithmic cryptocurrency trading bot that runs on centralized exchanges and Stellar DEX (command-line usage and desktop GUI).,True,False
-marketstore,,Golang,https://github.com/alpacahq/marketstore,DataFrame Server for Financial Timeseries Data.,True,False
-IndicatorGo,,Golang,https://github.com/cinar/indicator,"IndicatorGo is a Golang module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",True,False
-QuantLib,,CPP,https://github.com/lballabio/QuantLib,The QuantLib project is aimed at providing a comprehensive software framework for quantitative finance.,True,False
-QuantLibRisks,,CPP,https://github.com/auto-differentiation/QuantLib-Risks-Cpp,Fast risks with QuantLib in C++,True,False
-XAD,,CPP,https://github.com/auto-differentiation/xad,Automatic Differentation (AAD) Library,True,False
-TradeFrame,,CPP,https://github.com/rburkholder/trade-frame,C++ 17 based framework/library (with sample applications) for testing options based automated trading ideas using DTN IQ real time data feed and Interactive Brokers (TWS API) for trade execution. Comes with built-in [Option Greeks/IV](https://github.com/rburkholder/trade-frame/tree/master/lib/TFOptions) calculation library.,True,False
-Hikyuu,,CPP,https://github.com/fasiondog/hikyuu,"A base on Python/C++ open source high-performance quant framework for faster analysis and backtesting, contains the complete trading system components for reuse and combination. You can use python or c++ freely.",True,False
-QuantLib,,Frameworks,https://github.com/lballabio/QuantLib,The QuantLib project is aimed at providing a comprehensive software framework for quantitative finance.,True,False
-JQuantLib,,Frameworks,https://github.com/frgomes/jquantlib,Java port.,True,False
-RQuantLib,,Frameworks,https://github.com/eddelbuettel/rquantlib,R port.,True,False
-QuantLibAddin,,Frameworks,https://www.quantlib.org/quantlibaddin/,Excel support.,False,False
-QuantLibXL,,Frameworks,https://www.quantlib.org/quantlibxl/,Excel support.,False,False
-QLNet,,Frameworks,https://github.com/amaggiulli/qlnet,.Net port.,True,False
-PyQL,,Frameworks,https://github.com/enthought/pyql,Python port.,True,False
-QuantLib.jl,,Frameworks,https://github.com/pazzo83/QuantLib.jl,Julia port.,True,False
-QuantLib-Python Documentation,,Frameworks,https://quantlib-python-docs.readthedocs.io/,Documentation for the Python bindings for the QuantLib library,False,False
-TA-Lib,,Frameworks,https://ta-lib.org,perform technical analysis of financial market data.,False,False
-Portfolio Optimizer,,Frameworks,https://portfoliooptimizer.io/,Portfolio Optimizer is a Web API for portfolio analysis and optimization.,False,False
-QuantConnect,,CSharp,https://github.com/QuantConnect/Lean,Lean Engine is an open-source fully managed C# algorithmic trading engine built for desktop and cloud usage.,True,False
-StockSharp,,CSharp,https://github.com/StockSharp/StockSharp,"Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",True,False
-TDAmeritrade.DotNetCore,,CSharp,https://github.com/NVentimiglia/TDAmeritrade.DotNetCore,"Free, open-source .NET Client for the TD Ameritrade Trading Platform. Helps developers integrate TD Ameritrade API into custom trading solutions.",True,False
-QuantMath,,Rust,https://github.com/MarcusRainbow/QuantMath,Financial maths library for risk-neutral pricing and risk,True,False
-Barter,,Rust,https://github.com/barter-rs/barter-rs,Open-source Rust framework for building event-driven live-trading & backtesting systems,True,False
-LFEST,,Rust,https://github.com/MathisWellmann/lfest-rs,Simulated perpetual futures exchange to trade your strategy against.,True,False
-TradeAggregation,,Rust,https://github.com/MathisWellmann/trade_aggregation-rs,Aggregate trades into user-defined candles using information driven rules.,True,False
-SlidingFeatures,,Rust,https://github.com/MathisWellmann/sliding_features-rs,Chainable tree-like sliding windows for signal processing and technical analysis.,True,False
-RustQuant,,Rust,https://github.com/avhz/RustQuant,Quantitative finance library written in Rust.,True,False
-finalytics,,Rust,https://github.com/Nnamdi-sys/finalytics,A rust library for financial data analysis.,True,False
-RunMat,,Rust,https://github.com/runmat-org/runmat,Rust runtime for MATLAB-syntax array math with automatic CPU/GPU execution and fused kernels for quant simulations.,True,False
-Auto-Differentiation Website,,"Reproducing Works, Training & Books",https://auto-differentiation.github.io/,Background and  resources on Automatic Differentiation (AD) / Adjoint Algorithmic Differentitation (AAD).,False,False
-Derman Papers,,"Reproducing Works, Training & Books",https://github.com/MarcosCarreira/DermanPapers,Notebooks that replicate original quantitative finance papers from Emanuel Derman.,True,False
-ML-Quant,,"Reproducing Works, Training & Books",https://www.ml-quant.com/,"Top Quant resources like ArXiv (sanity), SSRN, RePec, Journals, Podcasts, Videos, and Blogs.",False,False
-volatility-trading,,"Reproducing Works, Training & Books",https://github.com/jasonstrimpel/volatility-trading,A complete set of volatility estimators based on Euan Sinclair's Volatility Trading.,True,False
-quant,,"Reproducing Works, Training & Books",https://github.com/paulperry/quant,"Quantitative Finance and Algorithmic Trading exhaust; mostly ipython notebooks based on Quantopian, Zipline, or Pandas.",True,False
-fecon235,,"Reproducing Works, Training & Books",https://github.com/rsvp/fecon235,Open source project for software tools in financial economics. Many jupyter notebook to verify theoretical ideas and practical methods interactively.,True,False
-Quantitative-Notebooks,,"Reproducing Works, Training & Books",https://github.com/LongOnly/Quantitative-Notebooks,"Educational notebooks on quantitative finance, algorithmic trading, financial modelling and investment strategy",True,False
-QuantEcon,,"Reproducing Works, Training & Books",https://quantecon.org/,"Lecture series on economics, finance, econometrics and data science; QuantEcon.py, QuantEcon.jl, notebooks",False,False
-FinanceHub,,"Reproducing Works, Training & Books",https://github.com/Finance-Hub/FinanceHub,Resources for Quantitative Finance,True,False
-Python_Option_Pricing,,"Reproducing Works, Training & Books",https://github.com/dedwards25/Python_Option_Pricing,"An library to price financial options written in Python. Includes: Black Scholes, Black 76, Implied Volatility, American, European, Asian, Spread Options.",True,False
-python-training,,"Reproducing Works, Training & Books",https://github.com/jpmorganchase/python-training,J.P. Morgan's Python training for business analysts and traders.,True,False
-Stock_Analysis_For_Quant,,"Reproducing Works, Training & Books",https://github.com/LastAncientOne/Stock_Analysis_For_Quant,"Different Types of Stock Analysis in Excel, Matlab, Power BI, Python, R, and Tableau.",True,False
-algorithmic-trading-with-python,,"Reproducing Works, Training & Books",https://github.com/chrisconlan/algorithmic-trading-with-python,Source code for Algorithmic Trading with Python (2020) by Chris Conlan.,True,False
-MEDIUM_NoteBook,,"Reproducing Works, Training & Books",https://github.com/cerlymarco/MEDIUM_NoteBook,Repository containing notebooks of [cerlymarco](https://github.com/cerlymarco)'s posts on Medium.,True,False
-QuantFinance,,"Reproducing Works, Training & Books",https://github.com/PythonCharmers/QuantFinance,Training materials in quantitative finance.,True,False
-IPythonScripts,,"Reproducing Works, Training & Books",https://github.com/mgroncki/IPythonScripts,"Tutorials about Quantitative Finance in Python and QuantLib: Pricing, xVAs, Hedging, Portfolio Optimisation, Machine Learning and Deep Learning.",True,False
-Computational-Finance-Course,,"Reproducing Works, Training & Books",https://github.com/LechGrzelak/Computational-Finance-Course,Materials for the course of Computational Finance.,True,False
-Machine-Learning-for-Asset-Managers,,"Reproducing Works, Training & Books",https://github.com/emoen/Machine-Learning-for-Asset-Managers,"Implementation of code snippets, exercises and application to live data from Machine Learning for Asset Managers (Elements in Quantitative Finance) written by Prof. Marcos López de Prado.",True,False
-Python-for-Finance-Cookbook,,"Reproducing Works, Training & Books",https://github.com/PacktPublishing/Python-for-Finance-Cookbook,"Python for Finance Cookbook, published by Packt.",True,False
-modelos_vol_derivativos,,"Reproducing Works, Training & Books",https://github.com/ysaporito/modelos_vol_derivativos,"""Modelos de Volatilidade para Derivativos"" book's Jupyter notebooks",True,False
-NMOF,,"Reproducing Works, Training & Books",https://github.com/enricoschumann/NMOF,"Functions, examples and data from the first and the second edition of ""Numerical Methods and Optimization in Finance"" by M. Gilli, D. Maringer and E. Schumann (2019, ISBN:978-0128150658).",True,False
-py4fi2nd,,"Reproducing Works, Training & Books",https://github.com/yhilpisch/py4fi2nd,"Jupyter Notebooks and code for Python for Finance (2nd ed., O'Reilly) by Yves Hilpisch.",True,False
-aiif,,"Reproducing Works, Training & Books",https://github.com/yhilpisch/aiif,Jupyter Notebooks and code for the book Artificial Intelligence in Finance (O'Reilly) by Yves Hilpisch.,True,False
-py4at,,"Reproducing Works, Training & Books",https://github.com/yhilpisch/py4at,Jupyter Notebooks and code for the book Python for Algorithmic Trading (O'Reilly) by Yves Hilpisch.,True,False
-dawp,,"Reproducing Works, Training & Books",https://github.com/yhilpisch/dawp,Jupyter Notebooks and code for Derivatives Analytics with Python (Wiley Finance) by Yves Hilpisch.,True,False
-dx,,"Reproducing Works, Training & Books",https://github.com/yhilpisch/dx,DX Analytics | Financial and Derivatives Analytics with Python.,True,False
-QuantFinanceBook,,"Reproducing Works, Training & Books",https://github.com/LechGrzelak/QuantFinanceBook,Quantitative Finance book.,True,False
-rough_bergomi,,"Reproducing Works, Training & Books",https://github.com/ryanmccrickerd/rough_bergomi,A Python implementation of the rough Bergomi model.,True,False
-frh-fx,,"Reproducing Works, Training & Books",https://github.com/ryanmccrickerd/frh-fx,A python implementation of the fast-reversion Heston model of Mechkov for FX purposes.,True,False
-Value Investing Studies,,"Reproducing Works, Training & Books",https://github.com/euclidjda/value-investing-studies,A collection of data analysis studies that examine the performance and characteristics of value investing over long periods of time.,True,False
-Machine Learning Asset Management,,"Reproducing Works, Training & Books",https://github.com/firmai/machine-learning-asset-management,Machine Learning in Asset Management (by @firmai).,True,False
-Deep Learning Machine Learning Stock,,"Reproducing Works, Training & Books",https://github.com/LastAncientOne/Deep-Learning-Machine-Learning-Stock,Deep Learning and Machine Learning stocks represent a promising long-term or short-term opportunity for investors and traders.,True,False
-Technical Analysis and Feature Engineering,,"Reproducing Works, Training & Books",https://github.com/jo-cho/Technical_Analysis_and_Feature_Engineering,Feature Engineering and Feature Importance of Machine Learning in Financial Market.,True,False
-Differential Machine Learning and Axes that matter by Brian Huge and Antoine Savine,,"Reproducing Works, Training & Books",https://github.com/differential-machine-learning/notebooks,"Implement, demonstrate, reproduce and extend the results of the Risk articles 'Differential Machine Learning' (2020) and 'PCA with a Difference' (2021) by Huge and Savine, and cover implementation details left out from the papers.",True,False
-systematictradingexamples,,"Reproducing Works, Training & Books",https://github.com/robcarver17/systematictradingexamples,Examples of code related to book [Systematic Trading](www.systematictrading.org) and [blog](http://qoppac.blogspot.com),True,False
-pysystemtrade_examples,,"Reproducing Works, Training & Books",https://github.com/robcarver17/pysystemtrade_examples,Examples using pysystemtrade for Robert Carver's [blog](http://qoppac.blogspot.com).,True,False
-ML_Finance_Codes,,"Reproducing Works, Training & Books",https://github.com/mfrdixon/ML_Finance_Codes,Machine Learning in Finance: From Theory to Practice Book,True,False
-Hands-On Machine Learning for Algorithmic Trading,,"Reproducing Works, Training & Books",https://github.com/packtpublishing/hands-on-machine-learning-for-algorithmic-trading,"Hands-On Machine Learning for Algorithmic Trading, published by Packt",True,False
-financialnoob-misc,,"Reproducing Works, Training & Books",https://github.com/financialnoob/misc,Codes from @financialnoob's posts,True,False
-MesoSim Options Trading Strategy Library,,"Reproducing Works, Training & Books",https://github.com/deltaray-io/strategy-library,Free and public Options Trading strategy library for MesoSim. ,True,False
-Quant-Finance-With-Python-Code,,"Reproducing Works, Training & Books",https://github.com/lingyixu/Quant-Finance-With-Python-Code,Repo for code examples in Quantitative Finance with Python by Chris Kelliher,True,False
-QuantFinanceTraining,,"Reproducing Works, Training & Books",https://github.com/JoaoJungblut/QuantFinanceTraining,"This repository contains codes that were executed during my training in the CQF (Certificate in Quantitative Finance). The codes are organized by class, facilitating navigation and reference.",True,False
-Statistical-Learning-based-Portfolio-Optimization,,"Reproducing Works, Training & Books",https://github.com/YannickKae/Statistical-Learning-based-Portfolio-Optimization,"This R Shiny App utilizes the Hierarchical Equal Risk Contribution (HERC) approach, a modern portfolio optimization method developed by Raffinot (2018).",True,False
-book_irds3,,"Reproducing Works, Training & Books",https://github.com/attack68/book_irds3,Code repository for Pricing and Trading Interest Rate Derivatives.,True,False
-Autoencoder-Asset-Pricing-Models,,"Reproducing Works, Training & Books",https://github.com/RichardS0268/Autoencoder-Asset-Pricing-Models,"Reimplementation of Autoencoder Asset Pricing Models ([GKX, 2019](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3335536)).",True,False
-Finance,,"Reproducing Works, Training & Books",https://github.com/shashankvemuri/Finance,"150+ quantitative finance Python programs to help you gather, manipulate, and analyze stock market data.",True,False
-101_formulaic_alphas,,"Reproducing Works, Training & Books",https://github.com/ram-ki/101_formulaic_alphas,Implementation of [101 formulaic alphas](https://arxiv.org/ftp/arxiv/papers/1601/1601.00991.pdf) using qstrader.,True,False
-Tidy Finance,,"Reproducing Works, Training & Books",https://www.tidy-finance.org/,"An opinionated approach to empirical research in financial economics - a fully transparent, open-source code base in multiple programming languages (Python and R) to enable the reproducible implementation of financial research projects for students and practitioners.",False,False
-RoughVolatilityWorkshop,,"Reproducing Works, Training & Books",https://github.com/jgatheral/RoughVolatilityWorkshop,2024 QuantMind's Rough Volatility Workshop lectures.,True,False
-AFML,,"Reproducing Works, Training & Books",https://github.com/boyboi86/AFML,All the answers for exercises from Advances in Financial Machine Learning by Dr Marco Lopez de Parodo.,True,False
-AlgoTradingLib,,"Reproducing Works, Training & Books",https://github.com/usdaud/algotradinglib.github.io,"A catalog of algorithmic trading libraries, frameworks, strategies, and educational materials.",True,False
+project,section,url,description,github,cran
+numpy,Python > Numerical Libraries & Data Structures,https://www.numpy.org,NumPy is the fundamental package for scientific computing with Python.,False,False
+scipy,Python > Numerical Libraries & Data Structures,https://www.scipy.org,"SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.",False,False
+pandas,Python > Numerical Libraries & Data Structures,https://pandas.pydata.org,"pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",False,False
+polars,Python > Numerical Libraries & Data Structures,https://docs.pola.rs/,Polars is a blazingly fast DataFrame library for manipulating structured data.,False,False
+quantdsl,Python > Numerical Libraries & Data Structures,https://github.com/johnbywater/quantdsl,Domain specific language for quantitative analytics in finance and trading.,True,False
+statistics,Python > Numerical Libraries & Data Structures,https://docs.python.org/3/library/statistics.html,Builtin Python library for all basic statistical calculations.,False,False
+sympy,Python > Numerical Libraries & Data Structures,https://www.sympy.org/,SymPy is a Python library for symbolic mathematics.,False,False
+pymc3,Python > Numerical Libraries & Data Structures,https://docs.pymc.io/,Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Theano.,False,False
+modelx,Python > Numerical Libraries & Data Structures,https://docs.modelx.io/,Python reimagination of spreadsheets as formula-centric objects that are interoperable with pandas.,False,False
+ArcticDB,Python > Numerical Libraries & Data Structures,https://github.com/man-group/ArcticDB,High performance datastore for time series and tick data.,True,False
+OpenBB Terminal,Python > Financial Instruments and Pricing,https://github.com/OpenBB-finance/OpenBBTerminal,Terminal for investment research for everyone.,True,False
+Fincept Terminal,Python > Financial Instruments and Pricing,https://github.com/Fincept-Corporation/FinceptTerminal,Advance Data Based A.I Terminal for all Types of Financial Asset Research.,True,False
+PyQL,Python > Financial Instruments and Pricing,https://github.com/enthought/pyql,QuantLib's Python port.,True,False
+pyfin,Python > Financial Instruments and Pricing,https://github.com/opendoor-labs/pyfin,Basic options pricing in Python. *ARCHIVED*,True,False
+vollib,Python > Financial Instruments and Pricing,https://github.com/vollib/vollib,"vollib is a python library for calculating option prices, implied volatility and greeks.",True,False
+QuantPy,Python > Financial Instruments and Pricing,https://github.com/jsmidt/QuantPy,A framework for quantitative finance In python.,True,False
+Finance-Python,Python > Financial Instruments and Pricing,https://github.com/alpha-miner/Finance-Python,Python tools for Finance.,True,False
+ffn,Python > Financial Instruments and Pricing,https://github.com/pmorissette/ffn,A financial function library for Python.,True,False
+pynance,Python > Financial Instruments and Pricing,https://github.com/GriffinAustin/pynance,Lightweight Python library for assembling and analyzing financial data.,True,False
+tia,Python > Financial Instruments and Pricing,https://github.com/bpsmith/tia,Toolkit for integration and analysis.,True,False
+hasura/base-python-dash,Python > Financial Instruments and Pricing,https://platform.hasura.io/hub/projects/hasura/base-python-dash,"Hasura quick start to deploy Dash framework. Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python.",False,False
+hasura/base-python-bokeh,Python > Financial Instruments and Pricing,https://platform.hasura.io/hub/projects/hasura/base-python-bokeh,Hasura quick start to visualize data with bokeh library.,False,False
+pysabr,Python > Financial Instruments and Pricing,https://github.com/ynouri/pysabr,SABR model Python implementation.,True,False
+FinancePy,Python > Financial Instruments and Pricing,https://github.com/domokane/FinancePy,"A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.",True,False
+gs-quant,Python > Financial Instruments and Pricing,https://github.com/goldmansachs/gs-quant,Python toolkit for quantitative finance,True,False
+willowtree,Python > Financial Instruments and Pricing,https://github.com/federicomariamassari/willowtree,Robust and flexible Python implementation of the willow tree lattice for derivatives pricing.,True,False
+financial-engineering,Python > Financial Instruments and Pricing,https://github.com/federicomariamassari/financial-engineering,"Applications of Monte Carlo methods to financial engineering projects, in Python.",True,False
+optlib,Python > Financial Instruments and Pricing,https://github.com/dbrojas/optlib,A library for financial options pricing written in Python.,True,False
+tf-quant-finance,Python > Financial Instruments and Pricing,https://github.com/google/tf-quant-finance,High-performance TensorFlow library for quantitative finance.,True,False
+Q-Fin,Python > Financial Instruments and Pricing,https://github.com/RomanMichaelPaolucci/Q-Fin,A Python library for mathematical finance.,True,False
+Quantsbin,Python > Financial Instruments and Pricing,https://github.com/quantsbin/Quantsbin,"Tools for pricing and plotting of vanilla option prices, greeks and various other analysis around them.",True,False
+finoptions,Python > Financial Instruments and Pricing,https://github.com/bbcho/finoptions-dev,Complete python implementation of R package fOptions with partial implementation of fExoticOptions for pricing various options.,True,False
+pypme,Python > Financial Instruments and Pricing,https://github.com/ymyke/pypme,PME (Public Market Equivalent) calculation.,True,False
+AbsBox,Python > Financial Instruments and Pricing,https://github.com/yellowbean/AbsBox,A Python based library to model cashflow for structured product like Asset-backed securities (ABS) and Mortgage-backed securities (MBS).,True,False
+Intrinsic-Value-Calculator,Python > Financial Instruments and Pricing,https://github.com/akashaero/Intrinsic-Value-Calculator,A Python tool for quick calculations of a stock's fair value using Discounted Cash Flow analysis.,True,False
+Kelly-Criterion,Python > Financial Instruments and Pricing,https://github.com/deltaray-io/kelly-criterion,Kelly Criterion implemented in Python to size portfolios based on J. L. Kelly Jr's formula.,True,False
+rateslib,Python > Financial Instruments and Pricing,https://github.com/attack68/rateslib,"A fixed income library for pricing bonds and bond futures, and derivatives such as IRS, cross-currency and FX swaps.",True,False
+fypy,Python > Financial Instruments and Pricing,https://github.com/jkirkby3/fypy,"Vanilla and exotic option pricing library to support quantitative R&D. Focus on pricing interesting/useful models and contracts (including and beyond Black-Scholes), as well as calibration of financial models to market data.",True,False
+pandas_talib,Python > Indicators,https://github.com/femtotrader/pandas_talib,A Python Pandas implementation of technical analysis indicators.,True,False
+finta,Python > Indicators,https://github.com/peerchemist/finta,Common financial technical analysis indicators implemented in Pandas.,True,False
+Tulipy,Python > Indicators,https://github.com/cirla/tulipy,Financial Technical Analysis Indicator Library (Python bindings for [tulipindicators](https://github.com/TulipCharts/tulipindicators)),True,False
+lppls,Python > Indicators,https://github.com/Boulder-Investment-Technologies/lppls,A Python module for fitting the [Log-Periodic Power Law Singularity (LPPLS)](https://en.wikipedia.org/wiki/Didier_Sornette#The_JLS_and_LPPLS_models) model.,True,False
+talipp,Python > Indicators,https://github.com/nardew/talipp,Incremental technical analysis library for Python.,True,False
+streaming_indicators,Python > Indicators,https://github.com/mr-easy/streaming_indicators,A python library for computing technical analysis indicators on streaming data.,True,False
+skfolio,Python > Trading & Backtesting,https://github.com/skfolio/skfolio,"Python library for portfolio optimization built on top of scikit-learn. It provides a unified interface and sklearn compatible tools to build, tune and cross-validate portfolio models.",True,False
+Investing algorithm framework,Python > Trading & Backtesting,https://github.com/coding-kitties/investing-algorithm-framework,"Framework for developing, backtesting, and deploying automated trading algorithms.",True,False
+QSTrader,Python > Trading & Backtesting,https://github.com/mhallsmoore/qstrader,QSTrader backtesting simulation engine.,True,False
+Blankly,Python > Trading & Backtesting,https://github.com/Blankly-Finance/Blankly,"Fully integrated backtesting, paper trading, and live deployment.",True,False
+TA-Lib,Python > Trading & Backtesting,https://github.com/mrjbq7/ta-lib,Python wrapper for TA-Lib (<http://ta-lib.org/>).,True,False
+zipline,Python > Trading & Backtesting,https://github.com/quantopian/zipline,Pythonic algorithmic trading library.,True,False
+zipline-reloaded,Python > Trading & Backtesting,https://github.com/stefan-jansen/zipline-reloaded,"Zipline, a Pythonic Algorithmic Trading Library.",True,False
+QuantSoftware Toolkit,Python > Trading & Backtesting,https://github.com/QuantSoftware/QuantSoftwareToolkit,Python-based open source software framework designed to support portfolio construction and management.,True,False
+quantitative,Python > Trading & Backtesting,https://github.com/jeffrey-liang/quantitative,"Quantitative finance, and backtesting library.",True,False
+analyzer,Python > Trading & Backtesting,https://github.com/llazzaro/analyzer,Python framework for real-time financial and backtesting trading strategies.,True,False
+bt,Python > Trading & Backtesting,https://github.com/pmorissette/bt,Flexible Backtesting for Python.,True,False
+backtrader,Python > Trading & Backtesting,https://github.com/backtrader/backtrader,Python Backtesting library for trading strategies.,True,False
+pythalesians,Python > Trading & Backtesting,https://github.com/thalesians/pythalesians,"Python library to backtest trading strategies, plot charts, seamlessly download market data, analyze market patterns etc.",True,False
+pybacktest,Python > Trading & Backtesting,https://github.com/ematvey/pybacktest,"Vectorized backtesting framework in Python / pandas, designed to make your backtesting easier.",True,False
+pyalgotrade,Python > Trading & Backtesting,https://github.com/gbeced/pyalgotrade,Python Algorithmic Trading Library.,True,False
+basana,Python > Trading & Backtesting,https://github.com/gbeced/basana,"A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.",True,False
+tradingWithPython,Python > Trading & Backtesting,https://pypi.org/project/tradingWithPython/,A collection of functions and classes for Quantitative trading.,False,False
+Pandas TA,Python > Trading & Backtesting,https://github.com/twopirllc/pandas-ta,Pandas TA is an easy to use Python 3 Pandas Extension with 115+ Indicators. Easily build Custom Strategies.,True,False
+ta,Python > Trading & Backtesting,https://github.com/bukosabino/ta,Technical Analysis Library using Pandas (Python),True,False
+algobroker,Python > Trading & Backtesting,https://github.com/joequant/algobroker,This is an execution engine for algo trading.,True,False
+pysentosa,Python > Trading & Backtesting,https://pypi.org/project/pysentosa/,Python API for sentosa trading system.,False,False
+finmarketpy,Python > Trading & Backtesting,https://github.com/cuemacro/finmarketpy,Python library for backtesting trading strategies and analyzing financial markets.,True,False
+binary-martingale,Python > Trading & Backtesting,https://github.com/metaperl/binary-martingale,Computer program to automatically trade binary options martingale style.,True,False
+fooltrader,Python > Trading & Backtesting,https://github.com/foolcage/fooltrader,the project using big-data technology to provide an uniform way to analyze the whole market.,True,False
+zvt,Python > Trading & Backtesting,https://github.com/zvtvz/zvt,"the project using sql, pandas to provide an uniform and extendable way to record data, computing factors, select securities, backtesting, realtime trading and it could show all of them in clearly charts in realtime.",True,False
+pylivetrader,Python > Trading & Backtesting,https://github.com/alpacahq/pylivetrader,zipline-compatible live trading library.,True,False
+pipeline-live,Python > Trading & Backtesting,https://github.com/alpacahq/pipeline-live,zipline's pipeline capability with IEX for live trading.,True,False
+zipline-extensions,Python > Trading & Backtesting,https://github.com/quantrocket-llc/zipline-extensions,Zipline extensions and adapters for QuantRocket.,True,False
+moonshot,Python > Trading & Backtesting,https://github.com/quantrocket-llc/moonshot,Vectorized backtester and trading engine for QuantRocket based on Pandas.,True,False
+PyPortfolioOpt,Python > Trading & Backtesting,https://github.com/robertmartin8/PyPortfolioOpt,"Financial portfolio optimization in python, including classical efficient frontier and advanced methods.",True,False
+Eiten,Python > Trading & Backtesting,https://github.com/tradytics/eiten,"Eiten is an open source toolkit by Tradytics that implements various statistical and algorithmic investing strategies such as Eigen Portfolios, Minimum Variance Portfolios, Maximum Sharpe Ratio Portfolios, and Genetic Algorithms based Portfolios.",True,False
+riskparity.py,Python > Trading & Backtesting,https://github.com/dppalomar/riskparity.py,fast and scalable design of risk parity portfolios with TensorFlow 2.0,True,False
+mlfinlab,Python > Trading & Backtesting,https://github.com/hudson-and-thames/mlfinlab,"Implementations regarding ""Advances in Financial Machine Learning"" by Marcos Lopez de Prado. (Feature Engineering, Financial Data Structures, Meta-Labeling)",True,False
+pyqstrat,Python > Trading & Backtesting,https://github.com/abbass2/pyqstrat,"A fast, extensible, transparent python library for backtesting quantitative strategies.",True,False
+NowTrade,Python > Trading & Backtesting,https://github.com/edouardpoitras/NowTrade,Python library for backtesting technical/mechanical strategies in the stock and currency markets.,True,False
+pinkfish,Python > Trading & Backtesting,https://github.com/fja05680/pinkfish,A backtester and spreadsheet library for security analysis.,True,False
+aat,Python > Trading & Backtesting,https://github.com/timkpaine/aat,Async Algorithmic Trading Engine,True,False
+Backtesting.py,Python > Trading & Backtesting,https://kernc.github.io/backtesting.py/,Backtest trading strategies in Python,False,False
+catalyst,Python > Trading & Backtesting,https://github.com/enigmampc/catalyst,An Algorithmic Trading Library for Crypto-Assets in Python,True,False
+quantstats,Python > Trading & Backtesting,https://github.com/ranaroussi/quantstats,"Portfolio analytics for quants, written in Python",True,False
+qtpylib,Python > Trading & Backtesting,https://github.com/ranaroussi/qtpylib,"QTPyLib, Pythonic Algorithmic Trading <http://qtpylib.io>",True,False
+Quantdom,Python > Trading & Backtesting,https://github.com/constverum/Quantdom,Python-based framework for backtesting trading strategies & analyzing financial markets [GUI :neckbeard:],True,False
+freqtrade,Python > Trading & Backtesting,https://github.com/freqtrade/freqtrade,"Free, open source crypto trading bot",True,False
+algorithmic-trading-with-python,Python > Trading & Backtesting,https://github.com/chrisconlan/algorithmic-trading-with-python,"Free `pandas` and `scikit-learn` resources for trading simulation, backtesting, and machine learning on financial data.",True,False
+DeepDow,Python > Trading & Backtesting,https://github.com/jankrepl/deepdow,Portfolio optimization with deep learning,True,False
+Qlib,Python > Trading & Backtesting,https://github.com/microsoft/qlib,"An AI-oriented Quantitative Investment Platform by Microsoft. Full ML pipeline of data processing, model training, back-testing; and covers the entire chain of quantitative investment: alpha seeking, risk modeling, portfolio optimization, and order execution.",True,False
+machine-learning-for-trading,Python > Trading & Backtesting,https://github.com/stefan-jansen/machine-learning-for-trading,Code and resources for Machine Learning for Algorithmic Trading,True,False
+AlphaPy,Python > Trading & Backtesting,https://github.com/ScottfreeLLC/AlphaPy,"Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost",True,False
+jesse,Python > Trading & Backtesting,https://github.com/jesse-ai/jesse,An advanced crypto trading bot written in Python,True,False
+rqalpha,Python > Trading & Backtesting,https://github.com/ricequant/rqalpha,"A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities.",True,False
+FinRL-Library,Python > Trading & Backtesting,https://github.com/AI4Finance-LLC/FinRL-Library,A Deep Reinforcement Learning Library for Automated Trading in Quantitative Finance. NeurIPS 2020.,True,False
+bulbea,Python > Trading & Backtesting,https://github.com/achillesrasquinha/bulbea,Deep Learning based Python Library for Stock Market Prediction and Modelling.,True,False
+ib_nope,Python > Trading & Backtesting,https://github.com/ajhpark/ib_nope,Automated trading system for NOPE strategy over IBKR TWS.,True,False
+OctoBot,Python > Trading & Backtesting,https://github.com/Drakkar-Software/OctoBot,"Open source cryptocurrency trading bot for high frequency, arbitrage, TA and social trading with an advanced web interface.",True,False
+bta-lib,Python > Trading & Backtesting,https://github.com/mementum/bta-lib,Technical Analysis library in pandas for backtesting algotrading and quantitative analysis.,True,False
+Stock-Prediction-Models,Python > Trading & Backtesting,https://github.com/huseinzol05/Stock-Prediction-Models,Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations.,True,False
+TuneTA,Python > Trading & Backtesting,https://github.com/jmrichardson/tuneta,TuneTA optimizes technical indicators using a distance correlation measure to a user defined target feature such as next day return.,True,False
+AutoTrader,Python > Trading & Backtesting,https://github.com/kieran-mackle/AutoTrader,A Python-based development platform for automated trading systems - from backtesting to optimization to livetrading.,True,False
+fast-trade,Python > Trading & Backtesting,https://github.com/jrmeier/fast-trade,A library built with backtest portability and performance in mind for backtest trading strategies.,True,False
+qf-lib,Python > Trading & Backtesting,https://github.com/quarkfin/qf-lib,QF-Lib is a Python library that provides high quality tools for quantitative finance.,True,False
+tda-api,Python > Trading & Backtesting,https://github.com/alexgolec/tda-api,"Gather data and trade equities, options, and ETFs via TDAmeritrade.",True,False
+vectorbt,Python > Trading & Backtesting,https://github.com/polakowo/vectorbt,"Find your trading edge, using a powerful toolkit for backtesting, algorithmic trading, and research.",True,False
+Lean,Python > Trading & Backtesting,https://github.com/QuantConnect/Lean,"Lean Algorithmic Trading Engine by QuantConnect (Python, C#).",True,False
+fast-trade,Python > Trading & Backtesting,https://github.com/jrmeier/fast-trade,Low code backtesting library utilizing pandas and technical analysis indicators.,True,False
+pysystemtrade,Python > Trading & Backtesting,https://github.com/robcarver17/pysystemtrade,"pysystemtrade is the open source version of Robert Carver's backtesting and trading engine that implements systems according to the framework outlined in his book ""Systematic Trading"", which is further developed on his [blog](https://qoppac.blogspot.com/).",True,False
+pytrendseries,Python > Trading & Backtesting,https://github.com/rafa-rod/pytrendseries,"Detect trend in time series, drawdown, drawdown within a constant look-back window , maximum drawdown, time underwater.",True,False
+PyLOB,Python > Trading & Backtesting,https://github.com/DrAshBooth/PyLOB,Fully functioning fast Limit Order Book written in Python.,True,False
+PyBroker,Python > Trading & Backtesting,https://github.com/edtechre/pybroker,Algorithmic Trading with Machine Learning.,True,False
+OctoBot Script,Python > Trading & Backtesting,https://github.com/Drakkar-Software/OctoBot-Script,A quant framework to create cryptocurrencies strategies - from backtesting to optimization to livetrading.,True,False
+hftbacktest,Python > Trading & Backtesting,https://github.com/nkaz001/hftbacktest,"A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.",True,False
+vnpy,Python > Trading & Backtesting,https://github.com/vnpy/vnpy,VeighNa is a Python-based open source quantitative trading system development framework.,True,False
+Intelligent Trading Bot,Python > Trading & Backtesting,https://github.com/asavinov/intelligent-trading-bot,Automatically generating signals and trading based on machine learning and feature engineering,True,False
+fastquant,Python > Trading & Backtesting,https://github.com/enzoampil/fastquant,fastquant allows you to easily backtest investment strategies with as few as 3 lines of python code.,True,False
+nautilus_trader,Python > Trading & Backtesting,https://github.com/nautechsystems/nautilus_trader,A high-performance algorithmic trading platform and event-driven backtester.,True,False
+YABTE,Python > Trading & Backtesting,https://github.com/bsdz/yabte,Yet Another (Python) BackTesting Engine.,True,False
+Trading Strategy,Python > Trading & Backtesting,https://github.com/tradingstrategy-ai/getting-started,"TradingStrategy.ai is a market data, backtesting, live trading and investor management framework for decentralised finance",True,False
+Hikyuu,Python > Trading & Backtesting,https://github.com/fasiondog/hikyuu,"A base on Python/C++ open source high-performance quant framework for faster analysis and backtesting, contains the complete trading system components for reuse and combination.",True,False
+rust_bt,Python > Trading & Backtesting,https://github.com/jensnesten/rust_bt,"A high performance, low-latency backtesting engine for testing quantitative trading strategies on historical and live data in Rust.",True,False
+Gunbot Quant,Python > Trading & Backtesting,https://github.com/GuntharDeNiro/gunbot-quant,"Toolkit for quantitative trading analysis. It integrates an advanced market screener, a multi-strategy, multi-asset backtesting engine. Use with built-in GUI or through CLI.",True,False
+StrateQueue,Python > Trading & Backtesting,https://github.com/StrateQueue/StrateQueue,"An open‑source, broker‑agnostic Python library that lets you seamlessly deploy strategies from any major backtesting engine to live (or paper) trading with zero code changes and built‑in safety controls.",True,False
+QuantLibRisks,Python > Risk Analysis,https://github.com/auto-differentiation/QuantLib-Risks-Py,Fast risks with QuantLib,True,False
+XAD,Python > Risk Analysis,https://github.com/auto-differentiation/xad-py,Automatic Differentation (AAD) Library,True,False
+pyfolio,Python > Risk Analysis,https://github.com/quantopian/pyfolio,Portfolio and risk analytics in Python.,True,False
+empyrical,Python > Risk Analysis,https://github.com/quantopian/empyrical,Common financial risk and performance metrics.,True,False
+fecon235,Python > Risk Analysis,https://github.com/rsvp/fecon235,"Computational tools for financial economics include: Gaussian Mixture model of leptokurtotic risk, adaptive Boltzmann portfolios.",True,False
+finance,Python > Risk Analysis,https://pypi.org/project/finance/,Financial Risk Calculations. Optimized for ease of use through class construction and operator overload.,False,False
+qfrm,Python > Risk Analysis,https://pypi.org/project/qfrm/,"Quantitative Financial Risk Management: awesome OOP tools for measuring, managing and visualizing risk of financial instruments and portfolios.",False,False
+visualize-wealth,Python > Risk Analysis,https://github.com/benjaminmgross/visualize-wealth,Portfolio construction and quantitative analysis.,True,False
+VisualPortfolio,Python > Risk Analysis,https://github.com/wegamekinglc/VisualPortfolio,This tool is used to visualize the performance of a portfolio.,True,False
+universal-portfolios,Python > Risk Analysis,https://github.com/Marigold/universal-portfolios,Collection of algorithms for online portfolio selection.,True,False
+FinQuant,Python > Risk Analysis,https://github.com/fmilthaler/FinQuant,"A program for financial portfolio management, analysis and optimization.",True,False
+Empyrial,Python > Risk Analysis,https://github.com/ssantoshp/Empyrial,Portfolio's risk and performance analytics and returns predictions.,True,False
+risktools,Python > Risk Analysis,https://github.com/bbcho/risktools-dev,Risk tools for use within the crude and crude products trading space with partial implementation of R's PerformanceAnalytics.,True,False
+Riskfolio-Lib,Python > Risk Analysis,https://github.com/dcajasn/Riskfolio-Lib,Portfolio Optimization and Quantitative Strategic Asset Allocation in Python.,True,False
+empyrical-reloaded,Python > Risk Analysis,https://github.com/stefan-jansen/empyrical-reloaded,Common financial risk and performance metrics. [empyrical](https://github.com/quantopian/empyrical) fork.,True,False
+pyfolio-reloaded,Python > Risk Analysis,https://github.com/stefan-jansen/pyfolio-reloaded,Portfolio and risk analytics in Python. [pyfolio](https://github.com/quantopian/pyfolio) fork.,True,False
+fortitudo.tech,Python > Risk Analysis,https://github.com/fortitudo-tech/fortitudo.tech,Conditional Value-at-Risk (CVaR) portfolio optimization and Entropy Pooling views / stress-testing in Python.,True,False
+quantitative-finance-tools,Python > Risk Analysis,https://github.com/omichauhan-lgtm/quantitative-finance-tools,Library for portfolio optimization (MVO) and rigorous risk metrics (VaR/CVaR).,True,False
+alphalens,Python > Factor Analysis,https://github.com/quantopian/alphalens,Performance analysis of predictive alpha factors.,True,False
+alphalens-reloaded,Python > Factor Analysis,https://github.com/stefan-jansen/alphalens-reloaded,Performance analysis of predictive (alpha) stock factors.,True,False
+Spectre,Python > Factor Analysis,https://github.com/Heerozh/spectre,GPU-accelerated Factors analysis library and Backtester,True,False
+Asset News Sentiment Analyzer,Python > Sentiment Analysis,https://github.com/KVignesh122/AssetNewsSentimentAnalyzer,Sentiment analysis and report generation package for financial assets and securities utilizing GPT models.,True,False
+Jupyter Quant,Python > Quant Research Environment,https://github.com/gnzsnz/jupyter-quant,"A dockerized Jupyter quant research environment with preloaded tools for quant analysis, statsmodels, pymc, arch, py_vollib, zipline-reloaded, PyPortfolioOpt, etc.",True,False
+ARCH,Python > Time Series,https://github.com/bashtage/arch,ARCH models in Python.,True,False
+statsmodels,Python > Time Series,http://statsmodels.sourceforge.net,"Python module that allows users to explore data, estimate statistical models, and perform statistical tests.",False,False
+dynts,Python > Time Series,https://github.com/quantmind/dynts,Python package for timeseries analysis and manipulation.,True,False
+PyFlux,Python > Time Series,https://github.com/RJT1990/pyflux,Python library for timeseries modelling and inference (frequentist and Bayesian) on models.,True,False
+tsfresh,Python > Time Series,https://github.com/blue-yonder/tsfresh,Automatic extraction of relevant features from time series.,True,False
+hasura/quandl-metabase,Python > Time Series,https://platform.hasura.io/hub/projects/anirudhm/quandl-metabase-time-series,Hasura quickstart to visualize Quandl's timeseries datasets with Metabase.,False,False
+Facebook Prophet,Python > Time Series,https://github.com/facebook/prophet,Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.,True,False
+tsmoothie,Python > Time Series,https://github.com/cerlymarco/tsmoothie,A python library for time-series smoothing and outlier detection in a vectorized way.,True,False
+pmdarima,Python > Time Series,https://github.com/alkaline-ml/pmdarima,"A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.",True,False
+gluon-ts,Python > Time Series,https://github.com/awslabs/gluon-ts,vProbabilistic time series modeling in Python.,True,False
+functime,Python > Time Series,https://github.com/functime-org/functime,Time-series machine learning at scale. Built with Polars for embarrassingly parallel feature extraction and forecasts on panel data.,True,False
+exchange_calendars,Python > Calendars,https://github.com/gerrymanoim/exchange_calendars,Stock Exchange Trading Calendars.,True,False
+bizdays,Python > Calendars,https://github.com/wilsonfreitas/python-bizdays,Business days calculations and utilities.,True,False
+pandas_market_calendars,Python > Calendars,https://github.com/rsheftel/pandas_market_calendars,Exchange calendars to use with pandas for trading applications.,True,False
+yfinance,Python > Data Sources,https://github.com/ranaroussi/yfinance,Yahoo! Finance market data downloader (+faster Pandas Datareader),True,False
+defeatbeta-api,Python > Data Sources,https://github.com/defeat-beta/defeatbeta-api,An open-source alternative to Yahoo Finance's market data APIs with higher reliability.,True,False
+findatapy,Python > Data Sources,https://github.com/cuemacro/findatapy,"Python library to download market data via Bloomberg, Quandl, Yahoo etc.",True,False
+googlefinance,Python > Data Sources,https://github.com/hongtaocai/googlefinance,Python module to get real-time stock data from Google Finance API.,True,False
+yahoo-finance,Python > Data Sources,https://github.com/lukaszbanasiak/yahoo-finance,Python module to get stock data from Yahoo! Finance.,True,False
+pandas-datareader,Python > Data Sources,https://github.com/pydata/pandas-datareader,"Python module to get data from various sources (Google Finance, Yahoo Finance, FRED, OECD, Fama/French, World Bank, Eurostat...) into Pandas datastructures such as DataFrame, Panel with a caching mechanism.",True,False
+pandas-finance,Python > Data Sources,https://github.com/davidastephens/pandas-finance,High level API for access to and analysis of financial data.,True,False
+pyhoofinance,Python > Data Sources,https://github.com/innes213/pyhoofinance,Rapidly queries Yahoo Finance for multiple tickers and returns typed data for analysis.,True,False
+yfinanceapi,Python > Data Sources,https://github.com/Karthik005/yfinanceapi,Finance API for Python.,True,False
+yql-finance,Python > Data Sources,https://github.com/slawek87/yql-finance,"yql-finance is simple and fast. API returns stock closing prices for current period of time and current stock ticker (i.e. APPL, GOOGL).",True,False
+ystockquote,Python > Data Sources,https://github.com/cgoldberg/ystockquote,Retrieve stock quote data from Yahoo Finance.,True,False
+wallstreet,Python > Data Sources,https://github.com/mcdallas/wallstreet,Real time stock and option data.,True,False
+stock_extractor,Python > Data Sources,https://github.com/ZachLiuGIS/stock_extractor,General Purpose Stock Extractors from Online Resources.,True,False
+Stockex,Python > Data Sources,https://github.com/cttn/Stockex,Python wrapper for Yahoo! Finance API.,True,False
+finsymbols,Python > Data Sources,https://github.com/skillachie/finsymbols,"Obtains stock symbols and relating information for SP500, AMEX, NYSE, and NASDAQ.",True,False
+FRB,Python > Data Sources,https://github.com/avelkoski/FRB,Python Client for FRED® API.,True,False
+inquisitor,Python > Data Sources,https://github.com/econdb/inquisitor,Python Interface to Econdb.com API.,True,False
+yfi,Python > Data Sources,https://github.com/nickelkr/yfi,Yahoo! YQL library.,True,False
+chinesestockapi,Python > Data Sources,https://pypi.org/project/chinesestockapi/,Python API to get Chinese stock price.,False,False
+exchange,Python > Data Sources,https://github.com/akarat/exchange,Get current exchange rate.,True,False
+ticks,Python > Data Sources,https://github.com/jamescnowell/ticks,Simple command line tool to get stock ticker data.,True,False
+pybbg,Python > Data Sources,https://github.com/bpsmith/pybbg,Python interface to Bloomberg COM APIs.,True,False
+ccy,Python > Data Sources,https://github.com/lsbardel/ccy,Python module for currencies.,True,False
+tushare,Python > Data Sources,https://pypi.org/project/tushare/,A utility for crawling historical and Real-time Quotes data of China stocks.,False,False
+jsm,Python > Data Sources,https://pypi.org/project/jsm/,Get the japanese stock market data.,False,False
+cn_stock_src,Python > Data Sources,https://github.com/jealous/cn_stock_src,Utility for retrieving basic China stock data from different sources.,True,False
+coinmarketcap,Python > Data Sources,https://github.com/barnumbirr/coinmarketcap,Python API for coinmarketcap.,True,False
+after-hours,Python > Data Sources,https://github.com/datawrestler/after-hours,Obtain pre market and after hours stock prices for a given symbol.,True,False
+bronto-python,Python > Data Sources,https://pypi.org/project/bronto-python/,Bronto API Integration for Python.,False,False
+pytdx,Python > Data Sources,https://github.com/rainx/pytdx,Python Interface for retrieving chinese stock realtime quote data from TongDaXin Nodes.,True,False
+pdblp,Python > Data Sources,https://github.com/matthewgilbert/pdblp,A simple interface to integrate pandas and the Bloomberg Open API.,True,False
+tiingo,Python > Data Sources,https://github.com/hydrosquall/tiingo-python,"Python interface for daily composite prices/OHLC/Volume + Real-time News Feeds, powered by the Tiingo Data Platform.",True,False
+iexfinance,Python > Data Sources,https://github.com/addisonlynch/iexfinance,Python Interface for retrieving real-time and historical prices and equities data from The Investor's Exchange.,True,False
+pyEX,Python > Data Sources,https://github.com/timkpaine/pyEX,"Python interface to IEX with emphasis on pandas, support for streaming data, premium data, points data (economic, rates, commodities), and technical indicators.",True,False
+alpaca-trade-api,Python > Data Sources,https://github.com/alpacahq/alpaca-trade-api-python,Python interface for retrieving real-time and historical prices from Alpaca API as well as trade execution.,True,False
+metatrader5,Python > Data Sources,https://pypi.org/project/MetaTrader5/,API Connector to MetaTrader 5 Terminal,False,False
+akshare,Python > Data Sources,https://github.com/jindaxiang/akshare,"AkShare is an elegant and simple financial data interface library for Python, built for human beings! <https://akshare.readthedocs.io>",True,False
+yahooquery,Python > Data Sources,https://github.com/dpguthrie/yahooquery,Python interface for retrieving data through unofficial Yahoo Finance API.,True,False
+investpy,Python > Data Sources,https://github.com/alvarobartt/investpy,Financial Data Extraction from Investing.com with Python! <https://investpy.readthedocs.io/>,True,False
+yliveticker,Python > Data Sources,https://github.com/yahoofinancelive/yliveticker,Live stream of market data from Yahoo Finance websocket.,True,False
+bbgbridge,Python > Data Sources,https://github.com/ran404/bbgbridge,Easy to use Bloomberg Desktop API wrapper for Python.,True,False
+polygon.io,Python > Data Sources,https://github.com/polygon-io/client-python,A python library for Polygon.io financial data APIs.,True,False
+alpha_vantage,Python > Data Sources,https://github.com/RomelTorres/alpha_vantage,A python wrapper for Alpha Vantage API for financial data.,True,False
+oilpriceapi,Python > Data Sources,https://github.com/OilpriceAPI/python-sdk,"Python SDK for real-time oil and commodity prices (WTI, Brent, Urals, natural gas, coal) with OpenBB integration.",True,False
+FinanceDataReader,Python > Data Sources,https://github.com/FinanceData/FinanceDataReader,"Open Source Financial data reader for U.S, Korean, Japanese, Chinese, Vietnamese Stocks",True,False
+pystlouisfed,Python > Data Sources,https://github.com/TomasKoutek/pystlouisfed,"Python client for Federal Reserve Bank of St. Louis API - FRED, ALFRED, GeoFRED and FRASER.",True,False
+python-bcb,Python > Data Sources,https://github.com/wilsonfreitas/python-bcb,Python interface to Brazilian Central Bank web services.,True,False
+market-prices,Python > Data Sources,https://github.com/maread99/market_prices,Create meaningful OHLCV datasets from knowledge of [exchange-calendars](https://github.com/gerrymanoim/exchange_calendars) (works out-the-box with data from Yahoo Finance).,True,False
+tardis-python,Python > Data Sources,https://github.com/tardis-dev/tardis-python,Python interface for Tardis.dev high frequency crypto market data,True,False
+lake-api,Python > Data Sources,https://github.com/crypto-lake/lake-api,Python interface for Crypto Lake high frequency crypto market data,True,False
+tessa,Python > Data Sources,https://github.com/ymyke/tessa,"simple, hassle-free access to price information of financial assets (currently based on yfinance and pycoingecko), including search and a symbol class.",True,False
+pandaSDMX,Python > Data Sources,https://github.com/dr-leo/pandaSDMX,"Python package that implements SDMX 2.1 (ISO 17369:2013), a format for exchange of statistical data and metadata used by national statistical agencies, central banks, and international organisations.",True,False
+cif,Python > Data Sources,https://github.com/LenkaV/CIF,"Python package that include few composite indicators, which summarize multidimensional relationships between individual economic indicators.",True,False
+finagg,Python > Data Sources,https://github.com/theOGognf/finagg,"finagg is a Python package that provides implementations of popular and free financial APIs, tools for aggregating historical data from those APIs into SQL databases, and tools for transforming aggregated data into features useful for analysis and AI/ML.",True,False
+FinanceDatabase,Python > Data Sources,https://github.com/JerBouma/FinanceDatabase,"This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",True,False
+Trading Strategy,Python > Data Sources,https://github.com/tradingstrategy-ai/trading-strategy/,download price data for decentralised exchanges and lending protocols (DeFi),True,False
+datamule-python,Python > Data Sources,https://github.com/john-friedman/datamule-python,A package to work with SEC data. Incorporates datamule endpoints.,True,False
+Earnings Feed,Python > Data Sources,https://earningsfeed.com/api,"Real-time SEC filings, insider trades, and institutional holdings API.",False,False
+Financial Data,Python > Data Sources,https://financialdata.net/,Stock Market and Financial Data API.,False,False
+SaxoOpenAPI,Python > Data Sources,https://www.developer.saxo/,Saxo Bank financial data API.,False,False
+fsynth,Python > Data Sources,https://github.com/welcra/fsynth,Python library for high-fidelity unlimited synthetic financial data generation using Heston Stochastic Volatility and Merton Jump Diffusion.,True,False
+fedfred,Python > Data Sources,https://nikhilxsunder.github.io/fedfred/,"FRED & GeoFRED Economic data API with preprocessed dataframe output in pandas/geopandas, polars/polars_st, and dask dataframes/geodataframes.",False,False
+edgar-sec,Python > Data Sources,https://nikhilxsunder.github.io/edgar-sec/,EDGAR Financial data API with preprocessed dataclass outputs.,False,False
+xlwings,Python > Excel Integration,https://www.xlwings.org/,Make Excel fly with Python.,False,False
+openpyxl,Python > Excel Integration,https://openpyxl.readthedocs.io/en/latest/,Read/Write Excel 2007 xlsx/xlsm files.,False,False
+xlrd,Python > Excel Integration,https://github.com/python-excel/xlrd,Library for developers to extract data from Microsoft Excel spreadsheet files.,True,False
+xlsxwriter,Python > Excel Integration,https://xlsxwriter.readthedocs.io/,Write files in the Excel 2007+ XLSX file format.,False,False
+xlwt,Python > Excel Integration,https://github.com/python-excel/xlwt,"Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform.",True,False
+DataNitro,Python > Excel Integration,https://datanitro.com/,"DataNitro also offers full-featured Python-Excel integration, including UDFs. Trial downloads are available, but users must purchase a license.",False,False
+xlloop,Python > Excel Integration,http://xlloop.sourceforge.net,XLLoop is an open source framework for implementing Excel user-defined functions (UDFs) on a centralised server (a function server).,False,False
+expy,Python > Excel Integration,http://www.bnikolic.co.uk/expy/expy.html,"The ExPy add-in allows easy use of Python directly from within an Microsoft Excel spreadsheet, both to execute arbitrary code and to define new Excel functions.",False,False
+pyxll,Python > Excel Integration,https://www.pyxll.com,PyXLL is an Excel add-in that enables you to extend Excel using nothing but Python code.,False,False
+D-Tale,Python > Visualization,https://github.com/man-group/dtale,Visualizer for pandas dataframes and xarray datasets.,True,False
+mplfinance,Python > Visualization,https://github.com/matplotlib/mplfinance,"matplotlib utilities for the visualization, and visual analysis, of financial data.",True,False
+finplot,Python > Visualization,https://github.com/highfestiva/finplot,Performant and effortless finance plotting for Python.,True,False
+finvizfinance,Python > Visualization,https://github.com/lit26/finvizfinance,Finviz analysis python library.,True,False
+market-analy,Python > Visualization,https://github.com/maread99/market_analy,Analysis and interactive charting using [market-prices](https://github.com/maread99/market_prices) and bqplot.,True,False
+QuantInvestStrats,Python > Visualization,https://github.com/ArturSepp/QuantInvestStrats,"Quantitative Investment Strategies (QIS) package implements Python analytics for visualisation of financial data, performance reporting, analysis of quantitative strategies.",True,False
+xts,R > Numerical Libraries & Data Structures,https://github.com/joshuaulrich/xts,"eXtensible Time Series: Provide for uniform handling of R's different time-based data classes by extending zoo, maximizing native format information preservation and allowing for user level customization and extension, while simplifying cross-class interoperability.",True,False
+data.table,R > Numerical Libraries & Data Structures,https://github.com/Rdatatable/data.table,"Extension of data.frame: Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns and a fast file reader (fread). Offers a natural and flexible syntax, for faster development.",True,False
+sparseEigen,R > Numerical Libraries & Data Structures,https://github.com/dppalomar/sparseEigen,Sparse principal component analysis.,True,False
+TSdbi,R > Numerical Libraries & Data Structures,http://tsdbi.r-forge.r-project.org/,Provides a common interface to time series databases.,False,False
+tseries,R > Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tseries/index.html,Time Series Analysis and Computational Finance.,False,True
+zoo,R > Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/zoo/index.html,S3 Infrastructure for Regular and Irregular Time Series (Z's Ordered Observations).,False,True
+tis,R > Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tis/index.html,"Functions and S3 classes for time indexes and time indexed series, which are compatible with FAME frequencies.",False,True
+tfplot,R > Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tfplot/index.html,Utilities for simple manipulation and quick plotting of time series data.,False,True
+tframe,R > Numerical Libraries & Data Structures,https://cran.r-project.org/web/packages/tframe/index.html,A kernel of functions for programming time series methods in a way that is relatively independently of the representation of time.,False,True
+IBrokers,R > Data Sources,https://cran.r-project.org/web/packages/IBrokers/index.html,Provides native R access to Interactive Brokers Trader Workstation API.,False,True
+Rblpapi,R > Data Sources,https://github.com/Rblp/Rblpapi,An R Interface to 'Bloomberg' is provided via the 'Blp API'.,True,False
+Quandl,R > Data Sources,https://www.quandl.com/tools/r,Get Financial Data Directly Into R.,False,False
+Rbitcoin,R > Data Sources,https://github.com/jangorecki/Rbitcoin,"Unified markets API interface (bitstamp, kraken, btce, bitmarket).",True,False
+GetTDData,R > Data Sources,https://github.com/msperlin/GetTDData,Downloads and aggregates data for Brazilian government issued bonds directly from the website of Tesouro Direto.,True,False
+GetHFData,R > Data Sources,https://github.com/msperlin/GetHFData,Downloads and aggregates high frequency trading data for Brazilian instruments directly from Bovespa ftp site.,True,False
+Reddit WallstreetBets API,R > Data Sources,https://dashboard.nbshare.io/apps/reddit/api/,Provides daily top 50 stocks from reddit (subreddit) Wallstreetbets and their sentiments via the API.,False,False
+td,R > Data Sources,https://github.com/eddelbuettel/td,Interfaces the 'twelvedata' API for stocks and (digital and standard) currencies.,True,False
+rbcb,R > Data Sources,https://github.com/wilsonfreitas/rbcb,R interface to Brazilian Central Bank web services.,True,False
+rb3,R > Data Sources,https://github.com/ropensci/rb3,A bunch of downloaders and parsers for data delivered from B3.,True,False
+simfinapi,R > Data Sources,https://github.com/matthiasgomolka/simfinapi,Makes 'SimFin' data (<https://simfin.com/>) easily accessible in R.,True,False
+tidyfinance,R > Data Sources,https://github.com/tidy-finance/r-tidyfinance,"Tidy Finance helper functions to download financial data and process the raw data into a structured Format (tidy data), including",True,False
+RQuantLib,R > Financial Instruments and Pricing,https://github.com/eddelbuettel/rquantlib,RQuantLib connects GNU R with QuantLib.,True,False
+quantmod,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/quantmod/index.html,Quantitative Financial Modelling Framework.,False,True
+Rmetrics,R > Financial Instruments and Pricing,https://www.rmetrics.org,The premier open source software solution for teaching and training quantitative finance.,False,False
+fAsianOptions,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fAsianOptions/index.html,EBM and Asian Option Valuation.,False,True
+fAssets,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fAssets/index.html,Analysing and Modelling Financial Assets.,False,True
+fBasics,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fBasics/index.html,Markets and Basic Statistics.,False,True
+fBonds,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fBonds/index.html,Bonds and Interest Rate Models.,False,True
+fExoticOptions,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fExoticOptions/index.html,Exotic Option Valuation.,False,True
+fOptions,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fOptions/index.html,Pricing and Evaluating Basic Options.,False,True
+fPortfolio,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/fPortfolio/index.html,Portfolio Selection and Optimization.,False,True
+portfolio,R > Financial Instruments and Pricing,https://github.com/dgerlanc/portfolio,Analysing equity portfolios.,True,False
+sparseIndexTracking,R > Financial Instruments and Pricing,https://github.com/dppalomar/sparseIndexTracking,Portfolio design to track an index.,True,False
+covFactorModel,R > Financial Instruments and Pricing,https://github.com/dppalomar/covFactorModel,Covariance matrix estimation via factor models.,True,False
+riskParityPortfolio,R > Financial Instruments and Pricing,https://github.com/dppalomar/riskParityPortfolio,Blazingly fast design of risk parity portfolios.,True,False
+sde,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/sde/index.html,Simulation and Inference for Stochastic Differential Equations.,False,True
+YieldCurve,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/YieldCurve/index.html,Modelling and estimation of the yield curve.,False,True
+SmithWilsonYieldCurve,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/SmithWilsonYieldCurve/index.html,Constructs a yield curve by the Smith-Wilson method from a table of LIBOR and SWAP rates.,False,True
+ycinterextra,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/ycinterextra/index.html,Yield curve or zero-coupon prices interpolation and extrapolation.,False,True
+AmericanCallOpt,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/AmericanCallOpt/index.html,This package includes pricing function for selected American call options with underlying assets that generate payouts.,False,True
+VarSwapPrice,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/VarSwapPrice/index.html,Pricing a variance swap on an equity index.,False,True
+RND,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/RND/index.html,Risk Neutral Density Extraction Package.,False,True
+LSMonteCarlo,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/LSMonteCarlo/index.html,American options pricing with Least Squares Monte Carlo method.,False,True
+OptHedging,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/OptHedging/index.html,Estimation of value and hedging strategy of call and put options.,False,True
+tvm,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/tvm/index.html,Time Value of Money Functions.,False,True
+OptionPricing,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/OptionPricing/index.html,Option Pricing with Efficient Simulation Algorithms.,False,True
+credule,R > Financial Instruments and Pricing,https://github.com/blenezet/credule,Credit Default Swap Functions.,True,False
+derivmkts,R > Financial Instruments and Pricing,https://cran.r-project.org/web/packages/derivmkts/index.html,Functions and R Code to Accompany Derivatives Markets.,False,True
+FinCal,R > Financial Instruments and Pricing,https://github.com/felixfan/FinCal,"Package for time value of money calculation, time series analysis and computational finance.",True,False
+r-quant,R > Financial Instruments and Pricing,https://github.com/artyyouth/r-quant,R code for quantitative analysis in finance.,True,False
+options.studies,R > Financial Instruments and Pricing,https://github.com/taylorizing/options.studies,options trading studies functions for use with options.data package and shiny.,True,False
+PortfolioAnalytics,R > Financial Instruments and Pricing,https://github.com/braverock/PortfolioAnalytics,"Portfolio Analysis, Including Numerical Methods for Optimizationof Portfolios.",True,False
+fmbasics,R > Financial Instruments and Pricing,https://github.com/imanuelcostigan/fmbasics,Financial Market Building Blocks.,True,False
+R-fixedincome,R > Financial Instruments and Pricing,https://github.com/wilsonfreitas/R-fixedincome,Fixed income tools for R.,True,False
+backtest,R > Trading,https://cran.r-project.org/web/packages/backtest/index.html,Exploring Portfolio-Based Conjectures About Financial Instruments.,False,True
+pa,R > Trading,https://cran.r-project.org/web/packages/pa/index.html,Performance Attribution for Equity Portfolios.,False,True
+TTR,R > Trading,https://github.com/joshuaulrich/TTR,Technical Trading Rules.,True,False
+QuantTools,R > Trading,https://quanttools.bitbucket.io/_site/index.html,Enhanced Quantitative Trading Modelling.,False,False
+blotter,R > Trading,https://github.com/braverock/blotter,"Transaction infrastructure for defining instruments, transactions, portfolios and accounts for trading systems and simulation. Provides portfolio support for multi-asset class and multi-currency portfolios. Actively maintained and developed.",True,False
+quantstrat,R > Backtesting,https://github.com/braverock/quantstrat,Transaction-oriented infrastructure for constructing trading systems and simulation. Provides support for multi-asset class and multi-currency portfolios for backtesting and other financial research.,True,False
+PerformanceAnalytics,R > Risk Analysis,https://github.com/braverock/PerformanceAnalytics,Econometric tools for performance and risk analysis.,True,False
+FactorAnalytics,R > Factor Analysis,https://github.com/braverock/FactorAnalytics,"The FactorAnalytics package contains fitting and analysis methods for the three main types of factor models used in conjunction with portfolio construction, optimization and risk management, namely fundamental factor models, time series factor models and statistical factor models.",True,False
+Expected Returns,R > Factor Analysis,https://github.com/JustinMShea/ExpectedReturns,"Solutions for enhancing portfolio diversification and replications of seminal papers with R, most of which are discussed in one of the best investment references of the recent decade, Expected Returns: An Investors Guide to Harvesting Market Rewards by Antti Ilmanen.",True,False
+tseries,R > Time Series,https://cran.r-project.org/web/packages/tseries/index.html,Time Series Analysis and Computational Finance.,False,True
+fGarch,R > Time Series,https://cran.r-project.org/web/packages/fGarch/index.html,Rmetrics - Autoregressive Conditional Heteroskedastic Modelling.,False,True
+timeSeries,R > Time Series,https://cran.r-project.org/web/packages/timeSeries/index.html,Rmetrics - Financial Time Series Objects.,False,True
+rugarch,R > Time Series,https://github.com/alexiosg/rugarch,Univariate GARCH Models.,True,False
+rmgarch,R > Time Series,https://github.com/alexiosg/rmgarch,Multivariate GARCH Models.,True,False
+tidypredict,R > Time Series,https://github.com/edgararuiz/tidypredict,Run predictions inside the database <https://tidypredict.netlify.com/>.,True,False
+tidyquant,R > Time Series,https://github.com/business-science/tidyquant,Bringing financial analysis to the tidyverse.,True,False
+timetk,R > Time Series,https://github.com/business-science/timetk,A toolkit for working with time series in R.,True,False
+tibbletime,R > Time Series,https://github.com/business-science/tibbletime,"Built on top of the tidyverse, tibbletime is an extension that allows for the creation of time aware tibbles through the setting of a time index.",True,False
+matrixprofile,R > Time Series,https://github.com/matrix-profile-foundation/matrixprofile,Time series data mining library built on top of the novel Matrix Profile data structure and algorithms.,True,False
+garchmodels,R > Time Series,https://github.com/AlbertoAlmuinha/garchmodels,A parsnip backend for GARCH models.,True,False
+timeDate,R > Calendars,https://cran.r-project.org/web/packages/timeDate/index.html,Chronological and Calendar Objects,False,True
+bizdays,R > Calendars,https://github.com/wilsonfreitas/R-bizdays,Business days calculations and utilities,True,False
+RunMat,Matlab > Alternatives,https://runmat.org,"High performance, Open Source, MATLAB syntax runtime.",False,False
+QUANTAXIS,Matlab > FrameWorks,https://github.com/yutiansut/quantaxis,Integrated Quantitative Toolbox with Matlab.,True,False
+PROJ_Option_Pricing_Matlab,Matlab > FrameWorks,https://github.com/jkirkby3/PROJ_Option_Pricing_Matlab,"Quant Option Pricing - Exotic/Vanilla: Barrier, Asian, European, American, Parisian, Lookback, Cliquet, Variance Swap, Swing, Forward Starting, Step, Fader",True,False
+CcyConv,Julia,https://github.com/bhftbootcamp/CcyConv.jl,Currency conversion library for Julia,True,False
+CryptoExchangeAPIs.jl,Julia,https://github.com/bhftbootcamp/CryptoExchangeAPIs.jl,A Julia library for cryptocurrency exchange APIs,True,False
+Fastback.jl,Julia,https://github.com/rbeeli/Fastback.jl,Blazing fast Julia backtester.,True,False
+Lucky.jl,Julia,https://github.com/oliviermilla/Lucky.jl,"Modular, asynchronous trading engine in pure Julia.",True,False
+QuantLib.jl,Julia,https://github.com/pazzo83/QuantLib.jl,Quantlib implementation in pure Julia.,True,False
+Ito.jl,Julia,https://github.com/aviks/Ito.jl,A Julia package for quantitative finance.,True,False
+LightweightCharts.jl,Julia,https://github.com/bhftbootcamp/LightweightCharts.jl,Julia wrapper for Lightweight Charts™ by TradingView.,True,False
+TALib.jl,Julia,https://github.com/femtotrader/TALib.jl,A Julia wrapper for TA-Lib.,True,False
+Miletus.jl,Julia,https://github.com/JuliaComputing/Miletus.jl,"A financial contract definition, modeling language, and valuation framework.",True,False
+Temporal.jl,Julia,https://github.com/dysonance/Temporal.jl,Flexible and efficient time series class & methods.,True,False
+Indicators.jl,Julia,https://github.com/dysonance/Indicators.jl,Financial market technical analysis & indicators on top of Temporal.,True,False
+Strategems.jl,Julia,https://github.com/dysonance/Strategems.jl,Quantitative systematic trading strategy development and backtesting.,True,False
+TimeSeries.jl,Julia,https://github.com/JuliaStats/TimeSeries.jl,Time series toolkit for Julia.,True,False
+TechnicalIndicatorCharts.jl,Julia,https://github.com/g-gundam/TechnicalIndicatorCharts.jl,Visualize OnlineTechnicalIndicators.jl using LightweightCharts.jl.,True,False
+MarketTechnicals.jl,Julia,https://github.com/JuliaQuant/MarketTechnicals.jl,Technical analysis of financial time series on top of TimeSeries.,True,False
+MarketData.jl,Julia,https://github.com/JuliaQuant/MarketData.jl,Time series market data.,True,False
+OnlineTechnicalIndicators.jl,Julia,https://github.com/femtotrader/OnlineTechnicalIndicators.jl,Julia Technical Analysis Indicators via online algorithms.,True,False
+OnlineTechnicalIndicators,Julia,https://github.com/femtotrader/OnlinePortfolioAnalytics.jl,A Julia quantitative portfolio analytics (risk / performance) via online algorithms.,True,False
+OnlineResamplers.jl,Julia,https://github.com/femtotrader/OnlineResamplers.jl,High-performance Julia package for real-time resampling of financial market data.,True,False
+RiskPerf.jl,Julia,https://github.com/rbeeli/RiskPerf.jl,Quantitative risk and performance analysis package for financial time series powered by the Julia language.,True,False
+TimeFrames.jl,Julia,https://github.com/femtotrader/TimeFrames.jl,A Julia library that defines TimeFrame (essentially for resampling TimeSeries).,True,False
+DataFrames.jl,Julia,https://github.com/JuliaData/DataFrames.jl,In-memory tabular data in Julia,True,False
+TSFrames.jl,Julia,https://github.com/xKDR/TSFrames.jl,Handle timeseries data on top of the powerful and mature DataFrames.jl,True,False
+TimeArrays.jl,Julia,https://github.com/bhftbootcamp/TimeArrays.jl,Time series handling for Julia,True,False
+Strata,Java,http://strata.opengamma.io/,Modern open-source analytics and market risk library designed and written in Java.,False,False
+JQuantLib,Java,https://github.com/frgomes/jquantlib,"JQuantLib is a free, open-source, comprehensive framework for quantitative finance, written in 100% Java.",True,False
+finmath.net,Java,http://finmath.net,Java library with algorithms and methodologies related to mathematical finance.,False,False
+quantcomponents,Java,https://github.com/lsgro/quantcomponents,Free Java components for Quantitative Finance and Algorithmic Trading.,True,False
+DRIP,Java,https://lakshmidrip.github.io/DRIP,"Fixed Income, Asset Allocation, Transaction Cost Analysis, XVA Metrics Libraries.",False,False
+ta4j,Java,https://github.com/ta4j/ta4j,A Java library for technical analysis.,True,False
+finance.js,JavaScript,https://github.com/ebradyjobory/finance.js,A JavaScript library for common financial calculations.,True,False
+portfolio-allocation,JavaScript,https://github.com/lequant40/portfolio_allocation_js,"PortfolioAllocation is a JavaScript library designed to help constructing financial portfolios made of several assets: bonds, commodities, cryptocurrencies, currencies, exchange traded funds (ETFs), mutual funds, stocks...",True,False
+Ghostfolio,JavaScript,https://github.com/ghostfolio/ghostfolio,"Wealth management software to keep track of financial assets like stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions.",True,False
+IndicatorTS,JavaScript,https://github.com/cinar/indicatorts,"Indicator is a TypeScript module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",True,False
+chart-patterns,JavaScript,https://github.com/focus1691/chart-patterns,"Technical analysis library for Market Profile, Volume Profile, Stacked Imbalances and High Volume Node indicators.",True,False
+orderflow,JavaScript,https://github.com/focus1691/orderflow,Orderflow trade aggregator for building Footprint Candles from exchange websocket data.,True,False
+ccxt,JavaScript,https://github.com/ccxt/ccxt,A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges.,True,False
+PENDAX,JavaScript,https://github.com/CompendiumFi/PENDAX-SDK,"Javascript SDK for Trading/Data API and Websockets for FTX, FTXUS, OKX, Bybit, & More.",True,False
+QUANTAXIS_Webkit,JavaScript > Data Visualization,https://github.com/yutiansut/QUANTAXIS_Webkit,An awesome visualization center based on quantaxis.,True,False
+quantfin,Haskell,https://github.com/boundedvariation/quantfin,quant finance in pure haskell.,True,False
+Haxcel,Haskell,https://github.com/MarcusRainbow/Haxcel,Excel Addin for Haskell.,True,False
+Ffinar,Haskell,https://github.com/MarcusRainbow/Ffinar,A financial maths library in Haskell.,True,False
+QuantScale,Scala,https://github.com/choucrifahed/quantscale,Scala Quantitative Finance Library.,True,False
+Scala Quant,Scala,https://github.com/frankcash/Scala-Quant,Scala library for working with stock data from IFTTT recipes or Google Finance.,True,False
+Jiji,Ruby,https://github.com/unageanu/jiji2,Open Source Forex algorithmic trading framework using OANDA REST API.,True,False
+Tai,Elixir/Erlang,https://github.com/fremantle-capital/tai,"Open Source composable, real time, market data and trade execution toolkit.",True,False
+Workbench,Elixir/Erlang,https://github.com/fremantle-industries/workbench,From Idea to Execution - Manage your trading operation across a globally distributed cluster,True,False
+Prop,Elixir/Erlang,https://github.com/fremantle-industries/prop,"An open and opinionated trading platform using productive & familiar open source libraries and tools for strategy research, execution and operation.",True,False
+Kelp,Golang,https://github.com/stellar/kelp,Kelp is an open-source Golang algorithmic cryptocurrency trading bot that runs on centralized exchanges and Stellar DEX (command-line usage and desktop GUI).,True,False
+marketstore,Golang,https://github.com/alpacahq/marketstore,DataFrame Server for Financial Timeseries Data.,True,False
+IndicatorGo,Golang,https://github.com/cinar/indicator,"IndicatorGo is a Golang module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",True,False
+QuantLib,CPP,https://github.com/lballabio/QuantLib,The QuantLib project is aimed at providing a comprehensive software framework for quantitative finance.,True,False
+QuantLibRisks,CPP,https://github.com/auto-differentiation/QuantLib-Risks-Cpp,Fast risks with QuantLib in C++,True,False
+XAD,CPP,https://github.com/auto-differentiation/xad,Automatic Differentation (AAD) Library,True,False
+TradeFrame,CPP,https://github.com/rburkholder/trade-frame,C++ 17 based framework/library (with sample applications) for testing options based automated trading ideas using DTN IQ real time data feed and Interactive Brokers (TWS API) for trade execution. Comes with built-in [Option Greeks/IV](https://github.com/rburkholder/trade-frame/tree/master/lib/TFOptions) calculation library.,True,False
+Hikyuu,CPP,https://github.com/fasiondog/hikyuu,"A base on Python/C++ open source high-performance quant framework for faster analysis and backtesting, contains the complete trading system components for reuse and combination. You can use python or c++ freely.",True,False
+QuantLib,Frameworks,https://github.com/lballabio/QuantLib,The QuantLib project is aimed at providing a comprehensive software framework for quantitative finance.,True,False
+JQuantLib,Frameworks,https://github.com/frgomes/jquantlib,Java port.,True,False
+RQuantLib,Frameworks,https://github.com/eddelbuettel/rquantlib,R port.,True,False
+QuantLibAddin,Frameworks,https://www.quantlib.org/quantlibaddin/,Excel support.,False,False
+QuantLibXL,Frameworks,https://www.quantlib.org/quantlibxl/,Excel support.,False,False
+QLNet,Frameworks,https://github.com/amaggiulli/qlnet,.Net port.,True,False
+PyQL,Frameworks,https://github.com/enthought/pyql,Python port.,True,False
+QuantLib.jl,Frameworks,https://github.com/pazzo83/QuantLib.jl,Julia port.,True,False
+QuantLib-Python Documentation,Frameworks,https://quantlib-python-docs.readthedocs.io/,Documentation for the Python bindings for the QuantLib library,False,False
+TA-Lib,Frameworks,https://ta-lib.org,perform technical analysis of financial market data.,False,False
+Portfolio Optimizer,Frameworks,https://portfoliooptimizer.io/,Portfolio Optimizer is a Web API for portfolio analysis and optimization.,False,False
+QuantConnect,CSharp,https://github.com/QuantConnect/Lean,Lean Engine is an open-source fully managed C# algorithmic trading engine built for desktop and cloud usage.,True,False
+StockSharp,CSharp,https://github.com/StockSharp/StockSharp,"Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",True,False
+TDAmeritrade.DotNetCore,CSharp,https://github.com/NVentimiglia/TDAmeritrade.DotNetCore,"Free, open-source .NET Client for the TD Ameritrade Trading Platform. Helps developers integrate TD Ameritrade API into custom trading solutions.",True,False
+QuantMath,Rust,https://github.com/MarcusRainbow/QuantMath,Financial maths library for risk-neutral pricing and risk,True,False
+Barter,Rust,https://github.com/barter-rs/barter-rs,Open-source Rust framework for building event-driven live-trading & backtesting systems,True,False
+LFEST,Rust,https://github.com/MathisWellmann/lfest-rs,Simulated perpetual futures exchange to trade your strategy against.,True,False
+TradeAggregation,Rust,https://github.com/MathisWellmann/trade_aggregation-rs,Aggregate trades into user-defined candles using information driven rules.,True,False
+SlidingFeatures,Rust,https://github.com/MathisWellmann/sliding_features-rs,Chainable tree-like sliding windows for signal processing and technical analysis.,True,False
+RustQuant,Rust,https://github.com/avhz/RustQuant,Quantitative finance library written in Rust.,True,False
+finalytics,Rust,https://github.com/Nnamdi-sys/finalytics,A rust library for financial data analysis.,True,False
+RunMat,Rust,https://github.com/runmat-org/runmat,Rust runtime for MATLAB-syntax array math with automatic CPU/GPU execution and fused kernels for quant simulations.,True,False
+Auto-Differentiation Website,"Reproducing Works, Training & Books",https://auto-differentiation.github.io/,Background and  resources on Automatic Differentiation (AD) / Adjoint Algorithmic Differentitation (AAD).,False,False
+Derman Papers,"Reproducing Works, Training & Books",https://github.com/MarcosCarreira/DermanPapers,Notebooks that replicate original quantitative finance papers from Emanuel Derman.,True,False
+ML-Quant,"Reproducing Works, Training & Books",https://www.ml-quant.com/,"Top Quant resources like ArXiv (sanity), SSRN, RePec, Journals, Podcasts, Videos, and Blogs.",False,False
+volatility-trading,"Reproducing Works, Training & Books",https://github.com/jasonstrimpel/volatility-trading,A complete set of volatility estimators based on Euan Sinclair's Volatility Trading.,True,False
+quant,"Reproducing Works, Training & Books",https://github.com/paulperry/quant,"Quantitative Finance and Algorithmic Trading exhaust; mostly ipython notebooks based on Quantopian, Zipline, or Pandas.",True,False
+fecon235,"Reproducing Works, Training & Books",https://github.com/rsvp/fecon235,Open source project for software tools in financial economics. Many jupyter notebook to verify theoretical ideas and practical methods interactively.,True,False
+Quantitative-Notebooks,"Reproducing Works, Training & Books",https://github.com/LongOnly/Quantitative-Notebooks,"Educational notebooks on quantitative finance, algorithmic trading, financial modelling and investment strategy",True,False
+QuantEcon,"Reproducing Works, Training & Books",https://quantecon.org/,"Lecture series on economics, finance, econometrics and data science; QuantEcon.py, QuantEcon.jl, notebooks",False,False
+FinanceHub,"Reproducing Works, Training & Books",https://github.com/Finance-Hub/FinanceHub,Resources for Quantitative Finance,True,False
+Python_Option_Pricing,"Reproducing Works, Training & Books",https://github.com/dedwards25/Python_Option_Pricing,"An library to price financial options written in Python. Includes: Black Scholes, Black 76, Implied Volatility, American, European, Asian, Spread Options.",True,False
+python-training,"Reproducing Works, Training & Books",https://github.com/jpmorganchase/python-training,J.P. Morgan's Python training for business analysts and traders.,True,False
+Stock_Analysis_For_Quant,"Reproducing Works, Training & Books",https://github.com/LastAncientOne/Stock_Analysis_For_Quant,"Different Types of Stock Analysis in Excel, Matlab, Power BI, Python, R, and Tableau.",True,False
+algorithmic-trading-with-python,"Reproducing Works, Training & Books",https://github.com/chrisconlan/algorithmic-trading-with-python,Source code for Algorithmic Trading with Python (2020) by Chris Conlan.,True,False
+MEDIUM_NoteBook,"Reproducing Works, Training & Books",https://github.com/cerlymarco/MEDIUM_NoteBook,Repository containing notebooks of [cerlymarco](https://github.com/cerlymarco)'s posts on Medium.,True,False
+QuantFinance,"Reproducing Works, Training & Books",https://github.com/PythonCharmers/QuantFinance,Training materials in quantitative finance.,True,False
+IPythonScripts,"Reproducing Works, Training & Books",https://github.com/mgroncki/IPythonScripts,"Tutorials about Quantitative Finance in Python and QuantLib: Pricing, xVAs, Hedging, Portfolio Optimisation, Machine Learning and Deep Learning.",True,False
+Computational-Finance-Course,"Reproducing Works, Training & Books",https://github.com/LechGrzelak/Computational-Finance-Course,Materials for the course of Computational Finance.,True,False
+Machine-Learning-for-Asset-Managers,"Reproducing Works, Training & Books",https://github.com/emoen/Machine-Learning-for-Asset-Managers,"Implementation of code snippets, exercises and application to live data from Machine Learning for Asset Managers (Elements in Quantitative Finance) written by Prof. Marcos López de Prado.",True,False
+Python-for-Finance-Cookbook,"Reproducing Works, Training & Books",https://github.com/PacktPublishing/Python-for-Finance-Cookbook,"Python for Finance Cookbook, published by Packt.",True,False
+modelos_vol_derivativos,"Reproducing Works, Training & Books",https://github.com/ysaporito/modelos_vol_derivativos,"""Modelos de Volatilidade para Derivativos"" book's Jupyter notebooks",True,False
+NMOF,"Reproducing Works, Training & Books",https://github.com/enricoschumann/NMOF,"Functions, examples and data from the first and the second edition of ""Numerical Methods and Optimization in Finance"" by M. Gilli, D. Maringer and E. Schumann (2019, ISBN:978-0128150658).",True,False
+py4fi2nd,"Reproducing Works, Training & Books",https://github.com/yhilpisch/py4fi2nd,"Jupyter Notebooks and code for Python for Finance (2nd ed., O'Reilly) by Yves Hilpisch.",True,False
+aiif,"Reproducing Works, Training & Books",https://github.com/yhilpisch/aiif,Jupyter Notebooks and code for the book Artificial Intelligence in Finance (O'Reilly) by Yves Hilpisch.,True,False
+py4at,"Reproducing Works, Training & Books",https://github.com/yhilpisch/py4at,Jupyter Notebooks and code for the book Python for Algorithmic Trading (O'Reilly) by Yves Hilpisch.,True,False
+dawp,"Reproducing Works, Training & Books",https://github.com/yhilpisch/dawp,Jupyter Notebooks and code for Derivatives Analytics with Python (Wiley Finance) by Yves Hilpisch.,True,False
+dx,"Reproducing Works, Training & Books",https://github.com/yhilpisch/dx,DX Analytics | Financial and Derivatives Analytics with Python.,True,False
+QuantFinanceBook,"Reproducing Works, Training & Books",https://github.com/LechGrzelak/QuantFinanceBook,Quantitative Finance book.,True,False
+rough_bergomi,"Reproducing Works, Training & Books",https://github.com/ryanmccrickerd/rough_bergomi,A Python implementation of the rough Bergomi model.,True,False
+frh-fx,"Reproducing Works, Training & Books",https://github.com/ryanmccrickerd/frh-fx,A python implementation of the fast-reversion Heston model of Mechkov for FX purposes.,True,False
+Value Investing Studies,"Reproducing Works, Training & Books",https://github.com/euclidjda/value-investing-studies,A collection of data analysis studies that examine the performance and characteristics of value investing over long periods of time.,True,False
+Machine Learning Asset Management,"Reproducing Works, Training & Books",https://github.com/firmai/machine-learning-asset-management,Machine Learning in Asset Management (by @firmai).,True,False
+Deep Learning Machine Learning Stock,"Reproducing Works, Training & Books",https://github.com/LastAncientOne/Deep-Learning-Machine-Learning-Stock,Deep Learning and Machine Learning stocks represent a promising long-term or short-term opportunity for investors and traders.,True,False
+Technical Analysis and Feature Engineering,"Reproducing Works, Training & Books",https://github.com/jo-cho/Technical_Analysis_and_Feature_Engineering,Feature Engineering and Feature Importance of Machine Learning in Financial Market.,True,False
+Differential Machine Learning and Axes that matter by Brian Huge and Antoine Savine,"Reproducing Works, Training & Books",https://github.com/differential-machine-learning/notebooks,"Implement, demonstrate, reproduce and extend the results of the Risk articles 'Differential Machine Learning' (2020) and 'PCA with a Difference' (2021) by Huge and Savine, and cover implementation details left out from the papers.",True,False
+systematictradingexamples,"Reproducing Works, Training & Books",https://github.com/robcarver17/systematictradingexamples,Examples of code related to book [Systematic Trading](www.systematictrading.org) and [blog](http://qoppac.blogspot.com),True,False
+pysystemtrade_examples,"Reproducing Works, Training & Books",https://github.com/robcarver17/pysystemtrade_examples,Examples using pysystemtrade for Robert Carver's [blog](http://qoppac.blogspot.com).,True,False
+ML_Finance_Codes,"Reproducing Works, Training & Books",https://github.com/mfrdixon/ML_Finance_Codes,Machine Learning in Finance: From Theory to Practice Book,True,False
+Hands-On Machine Learning for Algorithmic Trading,"Reproducing Works, Training & Books",https://github.com/packtpublishing/hands-on-machine-learning-for-algorithmic-trading,"Hands-On Machine Learning for Algorithmic Trading, published by Packt",True,False
+financialnoob-misc,"Reproducing Works, Training & Books",https://github.com/financialnoob/misc,Codes from @financialnoob's posts,True,False
+MesoSim Options Trading Strategy Library,"Reproducing Works, Training & Books",https://github.com/deltaray-io/strategy-library,Free and public Options Trading strategy library for MesoSim. ,True,False
+Quant-Finance-With-Python-Code,"Reproducing Works, Training & Books",https://github.com/lingyixu/Quant-Finance-With-Python-Code,Repo for code examples in Quantitative Finance with Python by Chris Kelliher,True,False
+QuantFinanceTraining,"Reproducing Works, Training & Books",https://github.com/JoaoJungblut/QuantFinanceTraining,"This repository contains codes that were executed during my training in the CQF (Certificate in Quantitative Finance). The codes are organized by class, facilitating navigation and reference.",True,False
+Statistical-Learning-based-Portfolio-Optimization,"Reproducing Works, Training & Books",https://github.com/YannickKae/Statistical-Learning-based-Portfolio-Optimization,"This R Shiny App utilizes the Hierarchical Equal Risk Contribution (HERC) approach, a modern portfolio optimization method developed by Raffinot (2018).",True,False
+book_irds3,"Reproducing Works, Training & Books",https://github.com/attack68/book_irds3,Code repository for Pricing and Trading Interest Rate Derivatives.,True,False
+Autoencoder-Asset-Pricing-Models,"Reproducing Works, Training & Books",https://github.com/RichardS0268/Autoencoder-Asset-Pricing-Models,"Reimplementation of Autoencoder Asset Pricing Models ([GKX, 2019](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3335536)).",True,False
+Finance,"Reproducing Works, Training & Books",https://github.com/shashankvemuri/Finance,"150+ quantitative finance Python programs to help you gather, manipulate, and analyze stock market data.",True,False
+101_formulaic_alphas,"Reproducing Works, Training & Books",https://github.com/ram-ki/101_formulaic_alphas,Implementation of [101 formulaic alphas](https://arxiv.org/ftp/arxiv/papers/1601/1601.00991.pdf) using qstrader.,True,False
+Tidy Finance,"Reproducing Works, Training & Books",https://www.tidy-finance.org/,"An opinionated approach to empirical research in financial economics - a fully transparent, open-source code base in multiple programming languages (Python and R) to enable the reproducible implementation of financial research projects for students and practitioners.",False,False
+RoughVolatilityWorkshop,"Reproducing Works, Training & Books",https://github.com/jgatheral/RoughVolatilityWorkshop,2024 QuantMind's Rough Volatility Workshop lectures.,True,False
+AFML,"Reproducing Works, Training & Books",https://github.com/boyboi86/AFML,All the answers for exercises from Advances in Financial Machine Learning by Dr Marco Lopez de Parodo.,True,False
+AlgoTradingLib,"Reproducing Works, Training & Books",https://github.com/usdaud/algotradinglib.github.io,"A catalog of algorithmic trading libraries, frameworks, strategies, and educational materials.",True,False

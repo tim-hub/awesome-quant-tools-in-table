@@ -7,7 +7,8 @@ import type { Project } from '../types'
 const projects: Project[] = [
   {
     project: 'ArcticDB',
-    section: 'Python > Data',
+    language: 'Python',
+    section: 'Data',
     url: 'https://github.com/man-group/ArcticDB',
     description: 'High perf datastore',
     github: true,
@@ -16,7 +17,8 @@ const projects: Project[] = [
   },
   {
     project: 'numpy',
-    section: 'Python > Numerical',
+    language: 'R',
+    section: 'Numerical',
     url: 'https://numpy.org',
     description: 'Numeric computing',
     github: false,
@@ -38,9 +40,9 @@ describe('ToolsTable', () => {
     expect(screen.queryByText('numpy')).not.toBeInTheDocument()
   })
 
-  it('filters rows by selected section', () => {
+  it('filters rows by selected language', () => {
     render(
-      <ToolsTable data={projects} search="" selectedSections={['Python > Numerical']} />
+      <ToolsTable data={projects} search="" selectedSections={['R']} />
     )
     expect(screen.queryByText('ArcticDB')).not.toBeInTheDocument()
     expect(screen.getByText('numpy')).toBeInTheDocument()
