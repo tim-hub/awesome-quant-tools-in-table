@@ -14,6 +14,12 @@ import type { Project } from '../types'
 
 const columnHelper = createColumnHelper<Project>()
 
+function formatStars(stars: number | null): string {
+  if (stars === null || stars === undefined) return ''
+  if (stars >= 1000) return `${(stars / 1000).toFixed(1).replace(/\.0$/, '')}k`
+  return String(stars)
+}
+
 interface ToolsTableProps {
   data: Project[]
   search: string
@@ -121,6 +127,9 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
             >
               <GithubIcon />
             </a>
+            {info.row.original.stars !== null && (
+              <span className="github-stars">{formatStars(info.row.original.stars)}</span>
+            )}
           </div>
         ) : null,
     }),
@@ -170,7 +179,7 @@ export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) 
     project:     '160px',
     section:     '190px',
     description: undefined,   // auto — fills remaining space
-    github:      '56px',
+    github:      '80px',    // was 56px — wider to fit stars
     last_commit: '108px',
   }
 

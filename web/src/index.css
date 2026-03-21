@@ -326,9 +326,10 @@ body { margin: 0; background: var(--bg-base); }
 }
 
 /* Per-column td alignment via data-col — no class conflicts with inner elements */
-.data-table td[data-col="github"]      { text-align: center; }
+.data-table td[data-col="github"]      { text-align: center; padding-right: 8px; }
 .data-table td[data-col="last_commit"]  { text-align: right; }
 .data-table th:last-child .th-sort-btn { justify-content: flex-end; }
+.data-table th:nth-last-child(2) .th-label { padding-right: 8px; }
 
 /* Header row */
 .data-table thead tr {
@@ -456,7 +457,11 @@ body { margin: 0; background: var(--bg-base); }
 
 /* GitHub cell */
 .cell-github {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding-right: 8px;   /* add spacing between github and last commit columns */
 }
 
 .github-link {
@@ -471,6 +476,14 @@ body { margin: 0; background: var(--bg-base); }
 }
 .github-link:hover { color: var(--text-teal); }
 .github-link svg { width: 14px; height: 14px; }
+
+.github-stars {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
 
 /* Commit cell — display block so the td[data-col] text-align is inherited */
 .cell-commit {
