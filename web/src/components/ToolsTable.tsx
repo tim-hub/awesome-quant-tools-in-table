@@ -44,6 +44,9 @@ const LANG_COLORS: Record<string, { bg: string; text: string; border: string }> 
   'Csharp':     { bg: 'rgba(245,158,11,0.1)',  text: '#B45309', border: 'transparent' },
   'CSharp':     { bg: 'rgba(245,158,11,0.1)',  text: '#B45309', border: 'transparent' },
   'Javascript': { bg: 'rgba(234,179,8,0.12)',  text: '#854D0E', border: 'transparent' },
+  'JavaScript': { bg: 'rgba(234,179,8,0.12)',  text: '#854D0E', border: 'transparent' },
+  'Haskell':    { bg: 'rgba(99,102,241,0.1)',  text: '#4338CA', border: 'transparent' },
+  'Elixir/Erlang': { bg: 'rgba(139,92,246,0.1)', text: '#6D28D9', border: 'transparent' },
   'Java':       { bg: 'rgba(239,68,68,0.1)',   text: '#B91C1C', border: 'transparent' },
   'Matlab':     { bg: 'rgba(232,121,249,0.1)', text: '#7E22CE', border: 'transparent' },
   'Golang':     { bg: 'rgba(6,182,212,0.1)',   text: '#0E7490', border: 'transparent' },
@@ -81,7 +84,22 @@ export function ToolsTable({ data, search, selectedLanguages, selectedCategories
 
   const columns = useMemo(() => [
     columnHelper.accessor('project', {
-      header: 'Name',
+      header: ({ column }) => (
+        <button
+          className={`th-sort-btn${column.getIsSorted() ? ' is-sorted' : ''}`}
+          onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
+          aria-label="Name"
+        >
+          Name
+          {column.getIsSorted() === 'asc' ? (
+            <ArrowUp />
+          ) : column.getIsSorted() === 'desc' ? (
+            <ArrowDown />
+          ) : (
+            <ArrowUpDown />
+          )}
+        </button>
+      ),
       cell: info => (
         <a
           href={info.row.original.url}

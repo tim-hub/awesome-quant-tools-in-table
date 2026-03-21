@@ -43,7 +43,11 @@ if (existsSync(GITHUB_DATA_CSV)) {
   console.warn(`WARN: github_data.csv not found — last_commit and stars will be null`)
 }
 
-const KNOWN_LANGUAGES = new Set(['R', 'CPP', 'CSharp', 'Csharp', 'Julia', 'Rust', 'Ruby', 'Scala', 'Golang', 'Python', 'Javascript', 'Java', 'Matlab'])
+const KNOWN_LANGUAGES = new Set([
+  'R', 'CPP', 'CSharp', 'Csharp', 'Julia', 'Rust', 'Ruby', 'Scala', 'Golang',
+  'Python', 'Javascript', 'JavaScript', 'Java', 'Matlab',
+  'Haskell', 'Elixir/Erlang',
+])
 
 // --- Merge ---
 const merged = projects.map(row => {
