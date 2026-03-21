@@ -142,11 +142,12 @@ export function ToolsTable({ data, search, selectedLanguages, selectedCategories
     columnHelper.accessor('github', {
       header: 'GitHub',
       enableSorting: false,
-      cell: info =>
-        info.getValue() ? (
+      cell: info => {
+        const url = info.getValue()
+        return url ? (
           <div className="cell-github">
             <a
-              href={info.row.original.url}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -155,7 +156,8 @@ export function ToolsTable({ data, search, selectedLanguages, selectedCategories
               <GithubIcon />
             </a>
           </div>
-        ) : null,
+        ) : null
+      },
     }),
     columnHelper.accessor(row => row.stars ?? undefined, {
       id: 'stars',

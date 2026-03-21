@@ -4,8 +4,7 @@ export interface Project {
   category: string    // e.g. "Backtesting", "Data Analysis" — empty string if not applicable
   url: string
   description: string
-  github: boolean
-  cran: boolean
+  github: string | null
   last_commit: string | null
   stars: number | null
 }
