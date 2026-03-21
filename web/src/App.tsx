@@ -49,7 +49,7 @@ export default function App() {
             <span className="eyebrow-stat">{projects.length} tools indexed</span>
           </div>
           <h1 className="app-title">
-            Awesome <span>Quant</span>
+            Awesome <span>Quant</span> Tools Table
           </h1>
           <p className="app-subtitle">
             A searchable index of quantitative finance tools, libraries &amp; resources
