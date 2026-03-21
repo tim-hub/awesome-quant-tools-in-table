@@ -17,21 +17,36 @@ import { Check, ChevronDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 interface FiltersProps {
+  languages: string[]
+  selectedLanguages: string[]
   sections: string[]
   selectedSections: string[]
   search: string
   onSearchChange: (value: string) => void
+  onLanguagesChange: (langs: string[]) => void
   onSectionsChange: (sections: string[]) => void
 }
 
 export function Filters({
+  languages,
+  selectedLanguages,
   sections,
   selectedSections,
   search,
   onSearchChange,
+  onLanguagesChange,
   onSectionsChange,
 }: FiltersProps) {
-  const [open, setOpen] = useState(false)
+  const [langOpen, setLangOpen] = useState(false)
+  const [sectionOpen, setSectionOpen] = useState(false)
+
+  function toggleLanguage(lang: string) {
+    if (selectedLanguages.includes(lang)) {
+      onLanguagesChange(selectedLanguages.filter(l => l !== lang))
+    } else {
+      onLanguagesChange([...selectedLanguages, lang])
+    }
+  }
 
   function toggleSection(section: string) {
     if (selectedSections.includes(section)) {
@@ -41,9 +56,15 @@ export function Filters({
     }
   }
 
-  const label = selectedSections.length === 0
+  const langLabel = selectedLanguages.length === 0
     ? 'Language'
+    : `${selectedLanguages.length} selected`
+
+  const sectionLabel = selectedSections.length === 0
+    ? 'Section'
     : `${selectedSections.length} selected`
+
+  const hasAnySelection = selectedLanguages.length > 0 || selectedSections.length > 0
 
   return (
     <div style={{ display: 'flex', gap: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
@@ -54,12 +75,12 @@ export function Filters({
         className="search-input"
       />
 
-      <Popover open={open} onOpenChange={setOpen}>
+      <Popover open={langOpen} onOpenChange={setLangOpen}>
         <PopoverTrigger
-          className={cn('section-trigger', selectedSections.length > 0 && 'has-selection')}
-          aria-label={label}
+          className={cn('section-trigger', selectedLanguages.length > 0 && 'has-selection')}
+          aria-label={langLabel}
         >
-          {label}
+          {langLabel}
           <ChevronDown />
         </PopoverTrigger>
         <PopoverContent className="section-popover" style={{ width: '320px', padding: 0 }} align="start">
@@ -67,6 +88,44 @@ export function Filters({
             <CommandInput placeholder="Filter languages..." />
             <CommandList style={{ maxHeight: '320px' }}>
               <CommandEmpty>No languages found.</CommandEmpty>
+              <CommandGroup>
+                {languages.map(lang => (
+                  <CommandItem
+                    key={lang}
+                    onSelect={() => toggleLanguage(lang)}
+                  >
+                    <Check
+                      style={{
+                        marginRight: '8px',
+                        width: '12px',
+                        height: '12px',
+                        opacity: selectedLanguages.includes(lang) ? 1 : 0,
+                        color: 'var(--text-gold)',
+                        flexShrink: 0,
+                      }}
+                    />
+                    {lang}
+                  </CommandItem>
+                ))}
+              </CommandGroup>
+            </CommandList>
+          </Command>
+        </PopoverContent>
+      </Popover>
+
+      <Popover open={sectionOpen} onOpenChange={setSectionOpen}>
+        <PopoverTrigger
+          className={cn('section-trigger', selectedSections.length > 0 && 'has-selection')}
+          aria-label={sectionLabel}
+        >
+          {sectionLabel}
+          <ChevronDown />
+        </PopoverTrigger>
+        <PopoverContent className="section-popover" style={{ width: '320px', padding: 0 }} align="start">
+          <Command>
+            <CommandInput placeholder="Filter sections..." />
+            <CommandList style={{ maxHeight: '320px' }}>
+              <CommandEmpty>No sections found.</CommandEmpty>
               <CommandGroup>
                 {sections.map(section => (
                   <CommandItem
@@ -92,9 +151,9 @@ export function Filters({
         </PopoverContent>
       </Popover>
 
-      {selectedSections.length > 0 && (
+      {hasAnySelection && (
         <button
-          onClick={() => onSectionsChange([])}
+          onClick={() => { onLanguagesChange([]); onSectionsChange([]) }}
           style={{
             background: 'none',
             border: 'none',

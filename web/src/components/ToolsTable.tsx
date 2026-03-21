@@ -23,6 +23,7 @@ function formatStars(stars: number | null): string {
 interface ToolsTableProps {
   data: Project[]
   search: string
+  selectedLanguages: string[]
   selectedSections: string[]
 }
 
@@ -62,13 +63,19 @@ function GithubIcon() {
   )
 }
 
-export function ToolsTable({ data, search, selectedSections }: ToolsTableProps) {
+export function ToolsTable({ data, search, selectedLanguages, selectedSections }: ToolsTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
 
   const filtered = useMemo(() => {
-    if (selectedSections.length === 0) return data
-    return data.filter(p => selectedSections.includes(p.language))
-  }, [data, selectedSections])
+    let result = data
+    if (selectedLanguages.length > 0) {
+      result = result.filter(p => selectedLanguages.includes(p.language))
+    }
+    if (selectedSections.length > 0) {
+      result = result.filter(p => selectedSections.includes(p.section))
+    }
+    return result
+  }, [data, selectedLanguages, selectedSections])
 
   const columns = useMemo(() => [
     columnHelper.accessor('project', {

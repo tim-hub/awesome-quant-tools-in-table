@@ -7,6 +7,7 @@ import type { Project } from './types'
 export default function App() {
   const [projects, setProjects] = useState<Project[]>([])
   const [search, setSearch] = useState('')
+  const [selectedLanguages, setSelectedLanguages] = useState<string[]>([])
   const [selectedSections, setSelectedSections] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -27,8 +28,12 @@ export default function App() {
       })
   }, [])
 
-  const sections = useMemo(
+  const languages = useMemo(
     () => [...new Set(projects.map(p => p.language).filter(Boolean))].sort(),
+    [projects]
+  )
+  const sections = useMemo(
+    () => [...new Set(projects.map(p => p.section).filter(Boolean))].sort(),
     [projects]
   )
 
@@ -80,16 +85,20 @@ export default function App() {
         <main>
           <div className="filter-bar">
             <Filters
+              languages={languages}
+              selectedLanguages={selectedLanguages}
               sections={sections}
               selectedSections={selectedSections}
               search={search}
               onSearchChange={setSearch}
+              onLanguagesChange={setSelectedLanguages}
               onSectionsChange={setSelectedSections}
             />
           </div>
           <ToolsTable
             data={projects}
             search={search}
+            selectedLanguages={selectedLanguages}
             selectedSections={selectedSections}
           />
           <footer className="app-footer">

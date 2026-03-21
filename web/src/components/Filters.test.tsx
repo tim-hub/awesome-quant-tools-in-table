@@ -3,16 +3,20 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { Filters } from './Filters'
 
-const sections = ['Python > Data', 'Python > Numerical', 'R > Statistics']
+const languages = ['Python', 'R']
+const sections = ['Data', 'Numerical', 'Statistics']
 
 describe('Filters', () => {
   it('renders search input and section button', () => {
     render(
       <Filters
+        languages={languages}
+        selectedLanguages={[]}
         sections={sections}
         selectedSections={[]}
         search=""
         onSearchChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
         onSectionsChange={vi.fn()}
       />
     )
@@ -24,10 +28,13 @@ describe('Filters', () => {
     const onSearch = vi.fn()
     render(
       <Filters
+        languages={languages}
+        selectedLanguages={[]}
         sections={sections}
         selectedSections={[]}
         search=""
         onSearchChange={onSearch}
+        onLanguagesChange={vi.fn()}
         onSectionsChange={vi.fn()}
       />
     )
@@ -37,13 +44,32 @@ describe('Filters', () => {
     expect(onSearch).toHaveBeenLastCalledWith('c')
   })
 
+  it('shows selected language count in button label', () => {
+    render(
+      <Filters
+        languages={languages}
+        selectedLanguages={['Python']}
+        sections={sections}
+        selectedSections={[]}
+        search=""
+        onSearchChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
+        onSectionsChange={vi.fn()}
+      />
+    )
+    expect(screen.getByRole('button', { name: /1 selected/i })).toBeInTheDocument()
+  })
+
   it('shows selected section count in button label', () => {
     render(
       <Filters
+        languages={languages}
+        selectedLanguages={[]}
         sections={sections}
-        selectedSections={['Python > Data']}
+        selectedSections={['Data']}
         search=""
         onSearchChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
         onSectionsChange={vi.fn()}
       />
     )
