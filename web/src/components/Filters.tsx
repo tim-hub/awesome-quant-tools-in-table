@@ -66,7 +66,7 @@ export function Filters({
           <Command>
             <CommandInput placeholder="Filter languages..." />
             <CommandList style={{ maxHeight: '320px' }}>
-              <CommandEmpty>No sections found.</CommandEmpty>
+              <CommandEmpty>No languages found.</CommandEmpty>
               <CommandGroup>
                 {sections.map(section => (
                   <CommandItem
