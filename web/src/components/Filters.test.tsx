@@ -3,39 +3,39 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { Filters } from './Filters'
 
-const sections = ['Python', 'R']
-const subsections = ['Data', 'Numerical', 'Statistics']
+const languages = ['Python', 'R']
+const categories = ['Data', 'Numerical', 'Statistics']
 
 describe('Filters', () => {
-  it('renders search input and section button', () => {
+  it('renders search input and language button', () => {
     render(
       <Filters
-        sections={sections}
-        selectedSections={[]}
-        subsections={subsections}
-        selectedSubsections={[]}
+        languages={languages}
+        selectedLanguages={[]}
+        categories={categories}
+        selectedCategories={[]}
         search=""
         onSearchChange={vi.fn()}
-        onSectionsChange={vi.fn()}
-        onSubsectionsChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
+        onCategoriesChange={vi.fn()}
       />
     )
     expect(screen.getByPlaceholderText(/search/i)).toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /section/i })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /language/i })).toBeInTheDocument()
   })
 
   it('calls onSearchChange when typing', async () => {
     const onSearch = vi.fn()
     render(
       <Filters
-        sections={sections}
-        selectedSections={[]}
-        subsections={subsections}
-        selectedSubsections={[]}
+        languages={languages}
+        selectedLanguages={[]}
+        categories={categories}
+        selectedCategories={[]}
         search=""
         onSearchChange={onSearch}
-        onSectionsChange={vi.fn()}
-        onSubsectionsChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
+        onCategoriesChange={vi.fn()}
       />
     )
     await userEvent.type(screen.getByPlaceholderText(/search/i), 'arc')
@@ -44,33 +44,33 @@ describe('Filters', () => {
     expect(onSearch).toHaveBeenLastCalledWith('c')
   })
 
-  it('shows selected section count in button label', () => {
+  it('shows selected language count in button label', () => {
     render(
       <Filters
-        sections={sections}
-        selectedSections={['Python']}
-        subsections={subsections}
-        selectedSubsections={[]}
+        languages={languages}
+        selectedLanguages={['Python']}
+        categories={categories}
+        selectedCategories={[]}
         search=""
         onSearchChange={vi.fn()}
-        onSectionsChange={vi.fn()}
-        onSubsectionsChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
+        onCategoriesChange={vi.fn()}
       />
     )
     expect(screen.getByRole('button', { name: /1 selected/i })).toBeInTheDocument()
   })
 
-  it('shows selected subsection count in button label', () => {
+  it('shows selected category count in button label', () => {
     render(
       <Filters
-        sections={sections}
-        selectedSections={[]}
-        subsections={subsections}
-        selectedSubsections={['Data']}
+        languages={languages}
+        selectedLanguages={[]}
+        categories={categories}
+        selectedCategories={['Data']}
         search=""
         onSearchChange={vi.fn()}
-        onSectionsChange={vi.fn()}
-        onSubsectionsChange={vi.fn()}
+        onLanguagesChange={vi.fn()}
+        onCategoriesChange={vi.fn()}
       />
     )
     expect(screen.getByRole('button', { name: /1 selected/i })).toBeInTheDocument()

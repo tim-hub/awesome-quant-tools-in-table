@@ -7,8 +7,8 @@ import type { Project } from './types'
 export default function App() {
   const [projects, setProjects] = useState<Project[]>([])
   const [search, setSearch] = useState('')
-  const [selectedSections, setSelectedSections] = useState<string[]>([])
-  const [selectedSubsections, setSelectedSubsections] = useState<string[]>([])
+  const [selectedLanguages, setSelectedLanguages] = useState<string[]>([])
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -28,12 +28,12 @@ export default function App() {
       })
   }, [])
 
-  const sections = useMemo(
-    () => [...new Set(projects.map(p => p.section).filter(Boolean))].sort(),
+  const languages = useMemo(
+    () => [...new Set(projects.map(p => p.language).filter(Boolean))].sort(),
     [projects]
   )
-  const subsections = useMemo(
-    () => [...new Set(projects.map(p => p.subsection).filter(Boolean))].sort(),
+  const categories = useMemo(
+    () => [...new Set(projects.map(p => p.category).filter(Boolean))].sort(),
     [projects]
   )
 
@@ -85,21 +85,21 @@ export default function App() {
         <main>
           <div className="filter-bar">
             <Filters
-              sections={sections}
-              selectedSections={selectedSections}
-              subsections={subsections}
-              selectedSubsections={selectedSubsections}
+              languages={languages}
+              selectedLanguages={selectedLanguages}
+              categories={categories}
+              selectedCategories={selectedCategories}
               search={search}
               onSearchChange={setSearch}
-              onSectionsChange={setSelectedSections}
-              onSubsectionsChange={setSelectedSubsections}
+              onLanguagesChange={setSelectedLanguages}
+              onCategoriesChange={setSelectedCategories}
             />
           </div>
           <ToolsTable
             data={projects}
             search={search}
-            selectedSections={selectedSections}
-            selectedSubsections={selectedSubsections}
+            selectedLanguages={selectedLanguages}
+            selectedCategories={selectedCategories}
           />
           <footer className="app-footer">
             <span>{projects.length} tools indexed</span>

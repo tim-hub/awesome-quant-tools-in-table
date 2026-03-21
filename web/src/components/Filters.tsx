@@ -17,54 +17,54 @@ import { Check, ChevronDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 interface FiltersProps {
-  sections: string[]
-  selectedSections: string[]
-  subsections: string[]
-  selectedSubsections: string[]
+  languages: string[]
+  selectedLanguages: string[]
+  categories: string[]
+  selectedCategories: string[]
   search: string
   onSearchChange: (value: string) => void
-  onSectionsChange: (sections: string[]) => void
-  onSubsectionsChange: (subsections: string[]) => void
+  onLanguagesChange: (languages: string[]) => void
+  onCategoriesChange: (categories: string[]) => void
 }
 
 export function Filters({
-  sections,
-  selectedSections,
-  subsections,
-  selectedSubsections,
+  languages,
+  selectedLanguages,
+  categories,
+  selectedCategories,
   search,
   onSearchChange,
-  onSectionsChange,
-  onSubsectionsChange,
+  onLanguagesChange,
+  onCategoriesChange,
 }: FiltersProps) {
   const [langOpen, setLangOpen] = useState(false)
   const [sectionOpen, setSectionOpen] = useState(false)
 
-  function toggleSection(section: string) {
-    if (selectedSections.includes(section)) {
-      onSectionsChange(selectedSections.filter(s => s !== section))
+  function toggleSection(language: string) {
+    if (selectedLanguages.includes(language)) {
+      onLanguagesChange(selectedLanguages.filter(s => s !== language))
     } else {
-      onSectionsChange([...selectedSections, section])
+      onLanguagesChange([...selectedLanguages, language])
     }
   }
 
-  function toggleSubsection(subsection: string) {
-    if (selectedSubsections.includes(subsection)) {
-      onSubsectionsChange(selectedSubsections.filter(s => s !== subsection))
+  function toggleSubsection(category: string) {
+    if (selectedCategories.includes(category)) {
+      onCategoriesChange(selectedCategories.filter(s => s !== category))
     } else {
-      onSubsectionsChange([...selectedSubsections, subsection])
+      onCategoriesChange([...selectedCategories, category])
     }
   }
 
-  const sectionLabel = selectedSections.length === 0
-    ? 'Section'
-    : `${selectedSections.length} selected`
+  const sectionLabel = selectedLanguages.length === 0
+    ? 'Language'
+    : `${selectedLanguages.length} selected`
 
-  const subsectionLabel = selectedSubsections.length === 0
-    ? 'Sub Section'
-    : `${selectedSubsections.length} selected`
+  const subsectionLabel = selectedCategories.length === 0
+    ? 'Category'
+    : `${selectedCategories.length} selected`
 
-  const hasAnySelection = selectedSections.length > 0 || selectedSubsections.length > 0
+  const hasAnySelection = selectedLanguages.length > 0 || selectedCategories.length > 0
 
   return (
     <div style={{ display: 'flex', gap: '10px', alignItems: 'center', flexWrap: 'wrap' }}>
@@ -77,7 +77,7 @@ export function Filters({
 
       <Popover open={langOpen} onOpenChange={setLangOpen}>
         <PopoverTrigger
-          className={cn('section-trigger', selectedSections.length > 0 && 'has-selection')}
+          className={cn('section-trigger', selectedLanguages.length > 0 && 'has-selection')}
           aria-label={sectionLabel}
         >
           {sectionLabel}
@@ -85,26 +85,26 @@ export function Filters({
         </PopoverTrigger>
         <PopoverContent className="section-popover" style={{ width: '320px', padding: 0 }} align="start">
           <Command>
-            <CommandInput placeholder="Filter sections..." />
+            <CommandInput placeholder="Filter languages..." />
             <CommandList style={{ maxHeight: '320px' }}>
-              <CommandEmpty>No sections found.</CommandEmpty>
+              <CommandEmpty>No languages found.</CommandEmpty>
               <CommandGroup>
-                {sections.map(section => (
+                {languages.map(language => (
                   <CommandItem
-                    key={section}
-                    onSelect={() => toggleSection(section)}
+                    key={language}
+                    onSelect={() => toggleSection(language)}
                   >
                     <Check
                       style={{
                         marginRight: '8px',
                         width: '12px',
                         height: '12px',
-                        opacity: selectedSections.includes(section) ? 1 : 0,
+                        opacity: selectedLanguages.includes(language) ? 1 : 0,
                         color: 'var(--text-gold)',
                         flexShrink: 0,
                       }}
                     />
-                    {section}
+                    {language}
                   </CommandItem>
                 ))}
               </CommandGroup>
@@ -115,7 +115,7 @@ export function Filters({
 
       <Popover open={sectionOpen} onOpenChange={setSectionOpen}>
         <PopoverTrigger
-          className={cn('section-trigger', selectedSubsections.length > 0 && 'has-selection')}
+          className={cn('section-trigger', selectedCategories.length > 0 && 'has-selection')}
           aria-label={subsectionLabel}
         >
           {subsectionLabel}
@@ -123,26 +123,26 @@ export function Filters({
         </PopoverTrigger>
         <PopoverContent className="section-popover" style={{ width: '320px', padding: 0 }} align="start">
           <Command>
-            <CommandInput placeholder="Filter sub sections..." />
+            <CommandInput placeholder="Filter categories..." />
             <CommandList style={{ maxHeight: '320px' }}>
-              <CommandEmpty>No sub sections found.</CommandEmpty>
+              <CommandEmpty>No categories found.</CommandEmpty>
               <CommandGroup>
-                {subsections.map(subsection => (
+                {categories.map(category => (
                   <CommandItem
-                    key={subsection}
-                    onSelect={() => toggleSubsection(subsection)}
+                    key={category}
+                    onSelect={() => toggleSubsection(category)}
                   >
                     <Check
                       style={{
                         marginRight: '8px',
                         width: '12px',
                         height: '12px',
-                        opacity: selectedSubsections.includes(subsection) ? 1 : 0,
+                        opacity: selectedCategories.includes(category) ? 1 : 0,
                         color: 'var(--text-gold)',
                         flexShrink: 0,
                       }}
                     />
-                    {subsection}
+                    {category}
                   </CommandItem>
                 ))}
               </CommandGroup>
@@ -153,7 +153,7 @@ export function Filters({
 
       {hasAnySelection && (
         <button
-          onClick={() => { onSectionsChange([]); onSubsectionsChange([]) }}
+          onClick={() => { onLanguagesChange([]); onCategoriesChange([]) }}
           style={{
             background: 'none',
             border: 'none',

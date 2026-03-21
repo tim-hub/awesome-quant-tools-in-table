@@ -43,35 +43,34 @@ if (existsSync(GITHUB_DATA_CSV)) {
   console.warn(`WARN: github_data.csv not found — last_commit and stars will be null`)
 }
 
-const SECTION_NAMES = new Set(['R', 'CPP', 'Csharp', 'Rust', 'Ruby', 'Scala', 'Golang'])
+const KNOWN_LANGUAGES = new Set(['R', 'CPP', 'Csharp', 'Rust', 'Ruby', 'Scala', 'Golang', 'Python', 'Javascript', 'Java', 'Matlab'])
 
 // --- Merge ---
 const merged = projects.map(row => {
-  // Split section "Python > Numerical Libraries" into section + subsection
+  // Split section "Python > Numerical Libraries" into language + category
   const rawSection = row.section?.trim() ?? ''
   const gtIdx = rawSection.indexOf(' > ')
-  let section = ''
-  let subsection = ''
+  let language = ''
+  let category = ''
 
   if (gtIdx !== -1) {
-    section = rawSection.slice(0, gtIdx).trim()
-    subsection = rawSection.slice(gtIdx + 3).trim()
+    language = rawSection.slice(0, gtIdx).trim()
+    category = rawSection.slice(gtIdx + 3).trim()
   } else {
-    // No ' > ' separator
-    if (SECTION_NAMES.has(rawSection)) {
-      section = rawSection   // e.g. "R" or "Rust" alone is a section
-      subsection = ''
+    if (KNOWN_LANGUAGES.has(rawSection)) {
+      language = rawSection
+      category = ''
     } else {
-      section = ''           // no recognizable section
-      subsection = rawSection
+      language = ''
+      category = rawSection
     }
   }
 
   const ghData = commitMap.get(row.url?.trim())
   return {
     project:     row.project?.trim() ?? '',
-    section:     section,
-    subsection:  subsection,
+    language:    language,
+    category:    category,
     url:         row.url?.trim() ?? '',
     description: row.description?.trim() ?? '',
     github:      row.github?.trim() === 'True',

@@ -1,7 +1,7 @@
 export interface Project {
   project: string
-  section: string       // Main section (e.g. "Python", "R") — empty if not applicable
-  subsection: string    // Sub-section (e.g. "Backtesting") — empty if not applicable
+  language: string    // e.g. "Python", "R" — empty string if not applicable
+  category: string    // e.g. "Backtesting", "Data Analysis" — empty string if not applicable
   url: string
   description: string
   github: boolean
