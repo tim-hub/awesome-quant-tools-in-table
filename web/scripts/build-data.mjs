@@ -90,7 +90,7 @@ const merged = projects.filter(row => !notFoundUrls.has(row.url?.trim())).map(ro
     category:    category,
     url:         row.url?.trim() ?? '',
     description: row.description?.trim() ?? '',
-    github:      row.github?.trim() === 'True' && row.url?.trim().startsWith('https://github.com/') ? row.url.trim() : null,
+    github:      row.github?.trim().startsWith('https://github.com/') ? row.github.trim() : null,
     last_commit: ghData?.last_commit ?? null,
     stars:       ghData?.stars ?? null,
   }
