@@ -10,7 +10,7 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const CSV_PATH = resolve(__dirname, '../data/projects.csv')
 
-const REQUIRED_HEADERS = ['project', 'section', 'url', 'description', 'github', 'cran']
+const REQUIRED_HEADERS = ['project', 'section', 'url', 'description', 'github']
 const BOOL_VALUES = new Set(['True', 'False', ''])
 
 function parseCSVLine(line) {
@@ -66,13 +66,12 @@ function main() {
     const project = fields[colIdx.project]?.trim()
     const url = fields[colIdx.url]?.trim()
     const github = fields[colIdx.github]?.trim()
-    const cran = fields[colIdx.cran]?.trim()
 
     if (!project) errors.push(`Line ${lineNum}: "project" is required`)
-    if (!url) errors.push(`Line ${lineNum}: "url" is required`)
     if (url && !url.startsWith('http')) errors.push(`Line ${lineNum}: "url" must start with http — got "${url}"`)
-    if (!BOOL_VALUES.has(github)) errors.push(`Line ${lineNum}: "github" must be True, False, or empty — got "${github}"`)
-    if (!BOOL_VALUES.has(cran)) errors.push(`Line ${lineNum}: "cran" must be True, False, or empty — got "${cran}"`)
+    if (github && !BOOL_VALUES.has(github) && !github.startsWith('https://github.com/')) {
+      errors.push(`Line ${lineNum}: "github" must be a GitHub URL, True, False, or empty — got "${github}"`)
+    }
   }
 
   if (errors.length) {
