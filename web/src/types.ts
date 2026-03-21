@@ -1,7 +1,7 @@
 export interface Project {
   project: string
-  language: string      // e.g. "Python", "R" — derived from section prefix before ' > '
-  section: string       // e.g. "Numerical Libraries" — the subcategory after ' > ', or full section if no ' > '
+  section: string       // Main section (e.g. "Python", "R") — empty if not applicable
+  subsection: string    // Sub-section (e.g. "Backtesting") — empty if not applicable
   url: string
   description: string
   github: boolean

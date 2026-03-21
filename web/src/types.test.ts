@@ -5,8 +5,8 @@ describe('Project type', () => {
   it('accepts a valid project with null last_commit', () => {
     const p: Project = {
       project: 'numpy',
-      language: 'Python',
-      section: 'Numerical',
+      section: 'Python',
+      subsection: 'Numerical',
       url: 'https://numpy.org',
       description: 'Numeric computing',
       github: false,
@@ -21,8 +21,8 @@ describe('Project type', () => {
   it('accepts a project with a last_commit date', () => {
     const p: Project = {
       project: 'ArcticDB',
-      language: 'Python',
-      section: 'Data',
+      section: 'Python',
+      subsection: 'Data',
       url: 'https://github.com/man-group/ArcticDB',
       description: 'High perf datastore',
       github: true,

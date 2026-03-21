@@ -7,8 +7,8 @@ import type { Project } from './types'
 export default function App() {
   const [projects, setProjects] = useState<Project[]>([])
   const [search, setSearch] = useState('')
-  const [selectedLanguages, setSelectedLanguages] = useState<string[]>([])
   const [selectedSections, setSelectedSections] = useState<string[]>([])
+  const [selectedSubsections, setSelectedSubsections] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -28,12 +28,12 @@ export default function App() {
       })
   }, [])
 
-  const languages = useMemo(
-    () => [...new Set(projects.map(p => p.language).filter(Boolean))].sort(),
-    [projects]
-  )
   const sections = useMemo(
     () => [...new Set(projects.map(p => p.section).filter(Boolean))].sort(),
+    [projects]
+  )
+  const subsections = useMemo(
+    () => [...new Set(projects.map(p => p.subsection).filter(Boolean))].sort(),
     [projects]
   )
 
@@ -85,21 +85,21 @@ export default function App() {
         <main>
           <div className="filter-bar">
             <Filters
-              languages={languages}
-              selectedLanguages={selectedLanguages}
               sections={sections}
               selectedSections={selectedSections}
+              subsections={subsections}
+              selectedSubsections={selectedSubsections}
               search={search}
               onSearchChange={setSearch}
-              onLanguagesChange={setSelectedLanguages}
               onSectionsChange={setSelectedSections}
+              onSubsectionsChange={setSelectedSubsections}
             />
           </div>
           <ToolsTable
             data={projects}
             search={search}
-            selectedLanguages={selectedLanguages}
             selectedSections={selectedSections}
+            selectedSubsections={selectedSubsections}
           />
           <footer className="app-footer">
             <span>{projects.length} tools indexed</span>

@@ -23,8 +23,8 @@ function formatStars(stars: number | null): string {
 interface ToolsTableProps {
   data: Project[]
   search: string
-  selectedLanguages: string[]
   selectedSections: string[]
+  selectedSubsections: string[]
 }
 
 const globalFilterFn: FilterFn<Project> = (row, _columnId, filterValue: string) => {
@@ -50,8 +50,8 @@ const LANG_COLORS: Record<string, { bg: string; text: string; border: string }> 
   'Scala':      { bg: 'rgba(244,63,94,0.08)',   text: '#c45068', border: 'rgba(244,63,94,0.2)'   },
 }
 
-function getLangStyle(language: string) {
-  return LANG_COLORS[language] ?? { bg: 'rgba(100,100,120,0.08)', text: '#5a6080', border: 'rgba(100,100,120,0.2)' }
+function getLangStyle(section: string) {
+  return LANG_COLORS[section] ?? { bg: 'rgba(100,100,120,0.08)', text: '#5a6080', border: 'rgba(100,100,120,0.2)' }
 }
 
 // GitHub SVG icon (inline, no external dep)
@@ -63,19 +63,19 @@ function GithubIcon() {
   )
 }
 
-export function ToolsTable({ data, search, selectedLanguages, selectedSections }: ToolsTableProps) {
+export function ToolsTable({ data, search, selectedSections, selectedSubsections }: ToolsTableProps) {
   const [sorting, setSorting] = useState<SortingState>([])
 
   const filtered = useMemo(() => {
     let result = data
-    if (selectedLanguages.length > 0) {
-      result = result.filter(p => selectedLanguages.includes(p.language))
-    }
     if (selectedSections.length > 0) {
       result = result.filter(p => selectedSections.includes(p.section))
     }
+    if (selectedSubsections.length > 0) {
+      result = result.filter(p => selectedSubsections.includes(p.subsection))
+    }
     return result
-  }, [data, selectedLanguages, selectedSections])
+  }, [data, selectedSections, selectedSubsections])
 
   const columns = useMemo(() => [
     columnHelper.accessor('project', {
@@ -90,23 +90,23 @@ export function ToolsTable({ data, search, selectedLanguages, selectedSections }
         </a>
       ),
     }),
-    columnHelper.accessor('section', {
-      header: 'Section',
+    columnHelper.accessor('subsection', {
+      header: 'Section / Sub',
       cell: info => {
-        const section = info.getValue()         // subcategory only (from JSON)
-        const language = info.row.original.language
-        const style = getLangStyle(language)
+        const subsection = info.getValue()
+        const section = info.row.original.section
+        const style = getLangStyle(section)
         return (
           <div className="cell-section">
-            {language && (
+            {section && (
               <span
                 className="section-lang"
                 style={{ background: style.bg, color: style.text, borderColor: style.border }}
               >
-                {language}
+                {section}
               </span>
             )}
-            {section && <span className="section-sub" title={section}>{section}</span>}
+            {subsection && <span className="section-sub" title={subsection}>{subsection}</span>}
           </div>
         )
       },
@@ -184,7 +184,7 @@ export function ToolsTable({ data, search, selectedLanguages, selectedSections }
   // Column widths — applied via th style, description gets remaining space automatically
   const colWidths: Record<string, string | undefined> = {
     project:     '160px',
-    section:     '190px',
+    subsection:  '190px',
     description: undefined,   // auto — fills remaining space
     github:      '80px',    // was 56px — wider to fit stars
     last_commit: '108px',
