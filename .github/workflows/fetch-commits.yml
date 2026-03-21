@@ -15,7 +15,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
       - name: Fetch last commit times
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash scripts/fetch_last_commits.sh
+        run: node scripts/fetch_last_commits.mjs
+      - name: Commit and push updated commit times
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_commit_times.csv
+          git diff --staged --quiet || git commit -m "chore: update last commit times"
+          git push
