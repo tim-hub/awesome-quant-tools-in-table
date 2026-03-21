@@ -32,10 +32,12 @@ export default function App() {
     () => [...new Set(projects.map(p => p.language).filter(Boolean))].sort(),
     [projects]
   )
-  const categories = useMemo(
-    () => [...new Set(projects.map(p => p.category).filter(Boolean))].sort(),
-    [projects]
-  )
+  const categories = useMemo(() => {
+    const source = selectedLanguages.length > 0
+      ? projects.filter(p => selectedLanguages.includes(p.language))
+      : projects
+    return [...new Set(source.map(p => p.category).filter(Boolean))].sort()
+  }, [projects, selectedLanguages])
 
   return (
     <div className="app-shell">
@@ -93,7 +95,18 @@ export default function App() {
               selectedCategories={selectedCategories}
               search={search}
               onSearchChange={setSearch}
-              onLanguagesChange={setSelectedLanguages}
+              onLanguagesChange={langs => {
+                setSelectedLanguages(langs)
+                // drop any selected categories that don't exist in the new language subset
+                if (langs.length > 0) {
+                  const valid = new Set(
+                    projects
+                      .filter(p => langs.includes(p.language))
+                      .map(p => p.category)
+                  )
+                  setSelectedCategories(prev => prev.filter(c => valid.has(c)))
+                }
+              }}
               onCategoriesChange={setSelectedCategories}
             />
           </div>
