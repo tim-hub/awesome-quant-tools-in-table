@@ -1,0 +1,1 @@
+- submit your project to [projects.csv](projects.csv) not [github_data.csv](github_data.csv), because the latter is generated from the former and will be overwritten.

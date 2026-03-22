@@ -143,7 +143,7 @@ body { margin: 0; background: var(--bg-base); }
 * { box-sizing: border-box; }
 
 /* ─── App Shell ──────────────────────────────────────────────── */
-#root {
+body {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
